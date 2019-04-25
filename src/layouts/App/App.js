@@ -5,19 +5,30 @@ import {
   ContentContainer
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
+import PolicyResults from '../../components/PolicyResults';
+import { policySearch } from '../../lib/policysearch';
 
 class App extends React.Component {
   constructor (props) {
     super(props);
     this.state = {
-      searchValue: ''
+      searchValue: '',
+      results: []
     }
+  }
+
+  getResults = (keyword) => {
+    let policyResults = policySearch(keyword);
+    this.setState({
+      results: policyResults
+    })
   }
 
   getSearch = (value) => {
     this.setState({
       searchValue: value
-    })
+    });
+    this.getResults(value);
   }
 
   render () {
@@ -31,6 +42,7 @@ class App extends React.Component {
               callback={this.getSearch}
             />
             <p>Current Search Value: {this.state.searchValue}</p>
+            { this.state.results !== [] ? <PolicyResults results={this.state.results} /> : null }
           </ContentContainer>
         </AppContainer>
       </React.Fragment>

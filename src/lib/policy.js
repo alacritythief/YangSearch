@@ -54,6 +54,5 @@ export const PolicyData = [
       'cybersecurity',
       'economic competitiveness'
     ]
-
   }
 ]
