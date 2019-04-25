@@ -4,7 +4,7 @@ import Fuse from 'fuse.js';
 export const policySearch = (keyword) => {
   const options = {
     shouldSort: true,
-    threshold: 0,
+    threshold: 0.1,
     location: 0,
     distance: 100,
     maxPatternLength: 32,

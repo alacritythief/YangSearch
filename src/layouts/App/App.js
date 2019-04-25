@@ -42,7 +42,7 @@ class App extends React.Component {
               callback={this.getSearch}
             />
             <p>Current Search Value: {this.state.searchValue}</p>
-            { this.state.results !== [] ? <PolicyResults results={this.state.results} /> : null }
+            <PolicyResults policies={this.state.results} />
           </ContentContainer>
         </AppContainer>
       </React.Fragment>
