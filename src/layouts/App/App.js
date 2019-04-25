@@ -7,6 +7,19 @@ import {
 import SearchInput from '../../components/SearchInput';
 
 class App extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      searchValue: ''
+    }
+  }
+
+  getSearch = (value) => {
+    this.setState({
+      searchValue: value
+    })
+  }
+
   render () {
     return (
       <React.Fragment>
@@ -14,7 +27,10 @@ class App extends React.Component {
         <AppContainer>
           <ContentContainer>
             <h1>Yang2020 Search</h1>
-            <SearchInput />
+            <SearchInput 
+              callback={this.getSearch}
+            />
+            <p>Current Search Value: {this.state.searchValue}</p>
           </ContentContainer>
         </AppContainer>
       </React.Fragment>
