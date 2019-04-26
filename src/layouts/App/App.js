@@ -13,14 +13,14 @@ class App extends React.Component {
     super(props);
     this.state = {
       searchValue: '',
-      results: []
+      policyResults: []
     }
   }
 
   getResults = (keyword) => {
-    let policyResults = policySearch(keyword);
+    let results = policySearch(keyword);
     this.setState({
-      results: policyResults
+      policyResults: results
     })
   }
 
@@ -31,6 +31,8 @@ class App extends React.Component {
     this.getResults(value);
   }
 
+  
+
   render () {
     return (
       <React.Fragment>
@@ -38,11 +40,12 @@ class App extends React.Component {
         <AppContainer>
           <ContentContainer>
             <h1>Yang2020 Search</h1>
+            <h3>Search Andrew Yang's polices</h3>
             <SearchInput 
               callback={this.getSearch}
             />
-            <p>Current Search Value: {this.state.searchValue}</p>
-            <PolicyResults policies={this.state.results} />
+            { this.state.searchValue !== '' ? <h2>Policy results for "{this.state.searchValue}":</h2> : null }
+            { this.state.policyResults.length < 1 ? <p>No results found :(</p> : <PolicyResults policies={this.state.policyResults} />}
           </ContentContainer>
         </AppContainer>
       </React.Fragment>

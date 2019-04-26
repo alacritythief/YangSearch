@@ -1,4 +1,5 @@
 import React from 'react';
+import { InputBox } from './styles';
 
 class SearchInput extends React.Component {
   constructor (props) {
@@ -24,8 +25,9 @@ class SearchInput extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <input 
+        <InputBox 
           type="text"
+          placeholder="ex. UBI, Medicare for All, Human-Centered Capitalism"
           value={this.state.value}
           onChange={this.handleChange}
           onKeyUp={this.handleSubmit}

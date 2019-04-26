@@ -1,12 +1,12 @@
 export const PolicyData = [
   {
-    id: 1,
     name: 'Universal Basic Income',
     url: 'https://www.yang2020.com/policies/the-freedom-dividend/',
     keywords: [
       'ubi',
       'freedom dividend',
       '$1000',
+      'money',
       'universal basic income',
       'thomas paine',
       'martin luther king',
@@ -15,7 +15,6 @@ export const PolicyData = [
     ]
   },
   {
-    id: 2,
     name: 'Medicare for All',
     url: 'https://www.yang2020.com/policies/medicare-for-all/',
     keywords: [
@@ -30,7 +29,6 @@ export const PolicyData = [
     ]
   },
   {
-    id: 3,
     name: 'Human-Centered Capitalism',
     url: 'https://www.yang2020.com/policies/human-capitalism/',
     keywords: [

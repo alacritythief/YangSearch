@@ -1,4 +1,5 @@
 import React from 'react';
+import { PolicyResultsContainer } from '../../ui-components/containers';
 
 class PolicyResults extends React.Component {
   generateResults = () => {
@@ -19,16 +20,15 @@ class PolicyResults extends React.Component {
   }
 
   render () {
-    if (this.props.policies.length <= 0) {
+    if (this.props.policies.length < 1) {
       return null;
     } else {
       return (
-        <div>
-          <h3>Results:</h3>
+        <PolicyResultsContainer>
           <ul>
             { this.generateResults() }
           </ul>
-        </div>
+        </PolicyResultsContainer>
       )
     }
   }
