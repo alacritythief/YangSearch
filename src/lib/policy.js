@@ -23,7 +23,7 @@ export const PolicyData = [
     keywords: [
       'medicare for all',
       'healthcare',
-      'doctor',
+      'doctors',
       'health',
       'medicine',
       'medical',
@@ -58,7 +58,7 @@ export const PolicyData = [
       'civic engagement',
       'cybersecurity',
       'economic competitiveness',
-      'job',
+      'jobs',
       'work'
     ]
   },
@@ -262,7 +262,7 @@ export const PolicyData = [
       'visa',
       'immigrant',
       'immigration',
-      'job',
+      'jobs',
       'work'
     ],
   },
@@ -283,7 +283,7 @@ export const PolicyData = [
       'retail',
       'buildings',
       'blight',
-      'job',
+      'jobs',
       'work'
     ],
   },
@@ -368,7 +368,7 @@ export const PolicyData = [
       'trucker',
       'automation',
       'economy',
-      'job',
+      'jobs',
       'work',
       'trucking czar',
       'transition',
@@ -393,7 +393,8 @@ export const PolicyData = [
       'stress',
       'leave',
       'mandatory leave',
-      'job',
+      'jobs',
+      'work',
       'economy',
       'productivity'
     ],
@@ -406,7 +407,7 @@ export const PolicyData = [
       'home',
       'economy',
       'dynamism',
-      'job',
+      'jobs',
       'moving',
       'move',
       'work',
@@ -422,32 +423,60 @@ export const PolicyData = [
   },
   {
     name: 'Modernize Military Spending',
-    url: '',
+    url: 'https://www.yang2020.com/policies/rechannel-military-spending/',
     category: '',
     keywords: [
       'military',
       'spending',
       'modern',
-      'modernization'
+      'modernization',
+      'soldiers',
+      'heath',
+      'healthcare',
+      'health care',
+      'veterans',
+      'mental health',
+      'cyberterrorism',
+      'nuclear material'
     ],
   },
   {
     name: 'Life-Skills Education in All High Schools',
-    url: '',
+    url: 'https://www.yang2020.com/policies/life-skills-education/',
     category: '',
     keywords: [
+      'education',
+      'life skills',
+      'life-skills',
+      'high schools',
+      'schools',
+      'finance',
+      'jobs',
+      'interviews',
+      'cooking',
+      'food',
+      'health',
+      'mental health',
+      'time management',
+      'physical fitness'
     ],
   },
   {
     name: 'Make Community College Affordable for All',
-    url: '',
+    url: 'https://www.yang2020.com/policies/close-skills-gap-community-college/',
     category: '',
     keywords: [
       'college',
       'university',
       'education',
       'student debt',
-      'debt'
+      'debt',
+      'tuition',
+      'schools',
+      'community',
+      'jobs',
+      'work',
+      'economy'
     ],
   },
   {
@@ -482,7 +511,7 @@ export const PolicyData = [
     keywords: [
       'medicine',
       'medical',
-      'doctor',
+      'doctors',
       'physicians'
     ],
   },
@@ -521,6 +550,8 @@ export const PolicyData = [
       'child',
       'children',
       'health',
+      'family',
+      'families',
       'healthcare',
       'health care',
       'autism',
@@ -544,7 +575,10 @@ export const PolicyData = [
     keywords: [
       'parenting',
       'parent',
-      'children'
+      'children',
+      'child',
+      'family',
+      'families'
     ],
   },
   {
@@ -588,8 +622,10 @@ export const PolicyData = [
       'marriage',
       'community',
       'family',
+      'families',
       'parent',
-      'children'
+      'children',
+      'child'
     ],
   },
   {
@@ -698,9 +734,11 @@ export const PolicyData = [
     keywords: [
       'smartphones',
       'children',
+      'child',
       'social media',
       'parent',
       'family',
+      'families',
       'community'
     ],
   },
@@ -793,10 +831,14 @@ export const PolicyData = [
     keywords: [
       'children',
       'education',
-      'preschool',
-      'pre-school',
+      'preschools',
+      'pre-schools',
+      'schools',
       'early',
-      'childhood'
+      'childhood',
+      'child',
+      'family',
+      'families'
     ],
   },
   {
@@ -806,7 +848,7 @@ export const PolicyData = [
     keywords: [
       'teacher',
       'education',
-      'school',
+      'schools',
       'student',
       'universities'
     ],
@@ -829,7 +871,10 @@ export const PolicyData = [
     keywords: [
       'vocational education',
       'education',
-      'jobs'
+      'vocation',
+      'schools',
+      'jobs',
+      'work'
     ],
   },
   {
@@ -838,6 +883,7 @@ export const PolicyData = [
     category: '',
     keywords: [
       'jobs',
+      'work',
       'pay',
       'equality',
       'fairness'
@@ -935,7 +981,8 @@ export const PolicyData = [
       'stress',
       'leave',
       'mandatory leave',
-      'job',
+      'jobs',
+      'work',
       'economy',
       'productivity'
     ],
@@ -989,7 +1036,7 @@ export const PolicyData = [
       'drugs',
       'medical',
       'pills',
-      'doctor',
+      'doctors',
       'fentanyl',
       'heroin',
       'oxycontin',
@@ -1199,7 +1246,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
-      'education'
+      'education',
+      'schools'
     ],
   },
   {
