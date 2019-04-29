@@ -61,7 +61,7 @@ class App extends React.Component {
         <AppContainer>
           <ContentContainer>
             <h1>Yang2020 Search</h1>
-            <h3>Search Andrew Yang's polices</h3>
+            <h3>Search Andrew Yang's Policies</h3>
             <SearchContainer>
               <SearchInput
                 ref="searchInput"

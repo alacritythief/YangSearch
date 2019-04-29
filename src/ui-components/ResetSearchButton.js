@@ -4,6 +4,6 @@ import * as c from '../constants/colors';
 
 export const ResetSearchButton = styled.button`
   background-color: ${c.MOCKUP_RED};
-  font-size: 16px;
+  font-size: 18px;
   padding: 0.5rem;
 `

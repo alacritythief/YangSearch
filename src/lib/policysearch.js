@@ -5,7 +5,7 @@ export const policySearch = (keyword) => {
   const options = {
     shouldSort: true,
     findAllMatches: true,
-    threshold: 0.1,
+    threshold: 0.2,
     location: 0,
     distance: 64,
     maxPatternLength: 32,

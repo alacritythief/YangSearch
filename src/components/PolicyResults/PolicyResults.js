@@ -1,5 +1,6 @@
 import React from 'react';
 import { PolicyResultsContainer } from '../../ui-components/containers';
+import { PolicyList, PolicyListItem } from './styles';
 
 class PolicyResults extends React.Component {
   generateResults = () => {
@@ -9,21 +10,21 @@ class PolicyResults extends React.Component {
     if (policies.length > 0) {
       policies.forEach((policy) => {
         policyArray.push(
-          <li key={count}>
+          <PolicyListItem key={count}>
             <a 
               href={policy.url} 
               rel="noopener noreferrer"
               target="_blank">{ policy.name }
             </a>
-          </li>
+          </PolicyListItem>
         )
         count++;
       });
     } else {
       policyArray.push(
-        <li key={count}>
+        <PolicyListItem key={count}>
           No Policies :(
-        </li>
+        </PolicyListItem>
       )
     }
     
@@ -37,9 +38,9 @@ class PolicyResults extends React.Component {
       return (
         <PolicyResultsContainer>
           <h2>Policy Results for "{this.props.searchValue}":</h2>
-          <ul>
+          <PolicyList>
             { this.generateResults() }
-          </ul>
+          </PolicyList>
         </PolicyResultsContainer>
       )
     }
