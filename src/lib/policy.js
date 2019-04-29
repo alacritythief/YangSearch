@@ -57,7 +57,9 @@ export const PolicyData = [
       'public safety',
       'civic engagement',
       'cybersecurity',
-      'economic competitiveness'
+      'economic competitiveness',
+      'job',
+      'work'
     ]
   },
   {
@@ -259,7 +261,9 @@ export const PolicyData = [
       'F-1',
       'visa',
       'immigrant',
-      'immigration'
+      'immigration',
+      'job',
+      'work'
     ],
   },
   {
@@ -278,7 +282,9 @@ export const PolicyData = [
       'local',
       'retail',
       'buildings',
-      'blight'
+      'blight',
+      'job',
+      'work'
     ],
   },
   {
@@ -332,16 +338,24 @@ export const PolicyData = [
   },
   {
     name: 'Capital Gain/Carried Interest Tax',
-    url: '',
+    url: 'https://www.yang2020.com/policies/capital-gain-carried-interest-tax/',
     category: '',
     keywords: [
       'tax',
-      'taxes'
+      'taxes',
+      'interest',
+      'tax code',
+      'revenue',
+      'carried',
+      'interest',
+      'loophole',
+      'capital',
+      'gain'
     ],
   },
   {
     name: 'Ease the Transition to Self-Driving Vehicles',
-    url: '',
+    url: 'https://www.yang2020.com/policies/trucking-czar/',
     category: '',
     keywords: [
       'cars',
@@ -349,25 +363,61 @@ export const PolicyData = [
       'self-driving',
       'self driving',
       'vehicles',
-      'trucks',
-      'truckers'
+      'truck',
+      'truck driving',
+      'trucker',
+      'automation',
+      'economy',
+      'job',
+      'work',
+      'trucking czar',
+      'transition',
+      'tax',
+      'taxes'
     ],
   },
   {
     name: 'Implement Mandatory Paid Leave Policy',
-    url: '',
+    url: 'https://www.yang2020.com/policies/mandatory-vacation/',
     category: '',
     keywords: [
-      'paid leave'
+      'paid leave',
+      'parent',
+      'family',
+      'families',
+      'community',
+      'children',
+      'child',
+      'childcare',
+      'mental health',
+      'stress',
+      'leave',
+      'mandatory leave',
+      'job',
+      'economy',
+      'productivity'
     ],
   },
   {
     name: 'Make it Easy for Americans to Move for Work',
-    url: '',
+    url: 'https://www.yang2020.com/policies/get-america-moving/',
     category: '',
     keywords: [
+      'home',
+      'economy',
+      'dynamism',
+      'job',
       'moving',
-      'work'
+      'move',
+      'work',
+      'subsidy',
+      'subsidize',
+      'cost',
+      'mobility',
+      'refund',
+      'IRS',
+      'federal',
+      'profession'
     ],
   },
   {
@@ -467,7 +517,15 @@ export const PolicyData = [
     keywords: [
       'medicine',
       'mental health',
-      'medical'
+      'medical',
+      'child',
+      'children',
+      'health',
+      'healthcare',
+      'health care',
+      'autism',
+      'autistic',
+      'autism spectrum'
     ],
   },
   {
@@ -540,6 +598,9 @@ export const PolicyData = [
     category: '',
     keywords: [
       'mental health',
+      'healthcare',
+      'health care',
+      'health',
       'government'
     ],
   },
@@ -671,6 +732,8 @@ export const PolicyData = [
     keywords: [
       'mental health',
       'healthcare',
+      'health care',
+      'health',
       'medicine',
       'medical'
     ],
@@ -695,7 +758,11 @@ export const PolicyData = [
       'taxes',
       'amazon',
       'facebook',
-      'google'
+      'google',
+      'economy',
+      'market',
+      'trade',
+      'business'
     ],
   },
   {
@@ -855,11 +922,22 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'paid leave',
+      'parent',
       'family',
+      'families',
       'community',
       'children',
+      'child',
+      'childcare',
       'newborn',
-      'parent'
+      'mental health',
+      'stress',
+      'leave',
+      'mandatory leave',
+      'job',
+      'economy',
+      'productivity'
     ],
   },
   {
