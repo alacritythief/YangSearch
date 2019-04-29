@@ -72,17 +72,25 @@ export const PolicyData = [
     ],
   },
   {
-    name: '',
-    url: '',
+    name: 'Regulate AI and other Emerging Technologies',
+    url: 'https://www.yang2020.com/policies/regulating-ai-emerging-technologies/',
     category: '',
     keywords: [
+      'ai',
+      'artificial intelligence',
+      'technology',
+      'regulate',
+      'regulation',
+      'machine learning'
     ],
   },
   {
-    name: '',
-    url: '',
+    name: 'Net Neutrality',
+    url: 'https://www.yang2020.com/policies/net-neutrality/',
     category: '',
     keywords: [
+      'internet',
+      'net'
     ],
   },
   {

@@ -1,8 +1,9 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
+import * as c from './colors';
 
 export const GlobalStyle = createGlobalStyle`
   html {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Helvetica, Arial, sans-serif;
   }
 
@@ -23,5 +24,13 @@ export const GlobalStyle = createGlobalStyle`
   img {
     max-width: 100%;
     height: auto;
+  }
+
+  a {
+    color: ${c.MEDBLUE};
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 `

@@ -7,7 +7,7 @@ import {
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
-import { policySearch } from '../../lib/policysearch';
+import { policySearch, policyCounter } from '../../lib/policysearch';
 import { ResetSearchButton } from '../../ui-components/ResetSearchButton';
 
 class App extends React.Component {
@@ -24,7 +24,7 @@ class App extends React.Component {
       searchValue: value
     })
 
-    if (value.length >= 3) {
+    if (value.length >= 2) {
       this.getPolicyResults(value)
     } else {
       this.setState({
@@ -60,8 +60,8 @@ class App extends React.Component {
         <GlobalStyle />
         <AppContainer>
           <ContentContainer>
-            <h1>Yang2020 Search</h1>
-            <h3>Search Andrew Yang's Policies</h3>
+            <h1>YangSearch</h1>
+            <h3>Search <a href="https://www.yang2020.com/">Andrew Yang's</a> Policies ({ policyCounter()} and counting!)</h3>
             <SearchContainer>
               <SearchInput
                 ref="searchInput"

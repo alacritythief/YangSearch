@@ -19,3 +19,7 @@ export const policySearch = (keyword) => {
   const results = fuse.search(keyword);
   return results;
 }
+
+export const policyCounter = () => {
+  return PolicyData.length
+}

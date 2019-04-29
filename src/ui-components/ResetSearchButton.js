@@ -3,7 +3,8 @@ import * as c from '../constants/colors';
 // import * as d from '../constants/devices';
 
 export const ResetSearchButton = styled.button`
-  background-color: ${c.MOCKUP_RED};
+  color: ${c.WHITE};
+  background-color: ${c.RED};
   font-size: 18px;
   padding: 0.5rem;
 `

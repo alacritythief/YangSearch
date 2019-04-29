@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import * as c from '../constants/colors';
 import * as d from '../constants/devices';
 
 export const AppContainer = styled.div`
@@ -18,4 +19,7 @@ export const ContentContainer = styled.div`
 
 export const PolicyResultsContainer = styled.div`
   margin-top: 1rem;
+  padding: 1rem;
+  background-color: ${c.COOLGRAY};
+  border: 1px dashed ${c.BLACK};
 `

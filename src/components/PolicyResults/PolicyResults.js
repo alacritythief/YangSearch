@@ -32,12 +32,12 @@ class PolicyResults extends React.Component {
   }
 
   render () {
-    if (this.props.policies.length < 1 && this.props.searchValue.length < 3) {
+    if (this.props.policies.length < 1 && this.props.searchValue.length < 2) {
       return null;
     } else {
       return (
         <PolicyResultsContainer>
-          <h2>Policy Results for "{this.props.searchValue}":</h2>
+          <h2>Policy Results related to "{this.props.searchValue}":</h2>
           <PolicyList>
             { this.generateResults() }
           </PolicyList>
