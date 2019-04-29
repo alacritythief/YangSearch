@@ -28,7 +28,8 @@ export const PolicyData = [
       'medicine',
       'holistic',
       'public option',
-      'single payer'
+      'single payer',
+      'mental health'
     ]
   },
   {

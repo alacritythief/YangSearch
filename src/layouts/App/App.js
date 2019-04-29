@@ -5,9 +5,9 @@ import {
   ContentContainer
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
-import Button from '../../components/Button/Button';
 import PolicyResults from '../../components/PolicyResults';
 import { policySearch } from '../../lib/policysearch';
+import { ResetSearchButton } from '../../ui-components/ResetSearchButton';
 
 class App extends React.Component {
   constructor (props) {
@@ -66,7 +66,7 @@ class App extends React.Component {
               updateSearchValue={this.updateSearchValue} 
               callback={this.getSearchCallback}
             />
-            <Button callback={() => this.resetSearch()} text="Reset"/>
+            <ResetSearchButton onClick={() => this.resetSearch()}>Reset</ResetSearchButton>
             <PolicyResults
               searchValue={this.state.searchValue}
               policies={this.state.policyResults} 
