@@ -8,6 +8,7 @@ export const PolicyData = [
       'freedom dividend',
       '$1000',
       'money',
+      'one thousand dollars',
       'universal basic income',
       'thomas paine',
       'martin luther king',

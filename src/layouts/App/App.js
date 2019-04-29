@@ -5,7 +5,7 @@ import {
   ContentContainer
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
-import SearchButton from '../../components/SearchButton';
+import Button from '../../components/Button/Button';
 import PolicyResults from '../../components/PolicyResults';
 import { policySearch } from '../../lib/policysearch';
 
@@ -43,6 +43,16 @@ class App extends React.Component {
     this.getPolicyResults(this.state.searchValue);
   }
 
+  resetSearch = () => {
+    if (this.state.searchValue !== '') {
+      this.refs.searchInput.state.value = '';
+      this.setState({
+        searchValue: '',
+        policyResults: []
+      })
+    }
+  }
+
   render () {
     return (
       <React.Fragment>
@@ -52,10 +62,11 @@ class App extends React.Component {
             <h1>Yang2020 Search</h1>
             <h3>Search Andrew Yang's polices</h3>
             <SearchInput
+              ref="searchInput"
               updateSearchValue={this.updateSearchValue} 
               callback={this.getSearchCallback}
             />
-            <SearchButton text="Hello World"/>
+            <Button callback={() => this.resetSearch()} text="Reset"/>
             <PolicyResults
               searchValue={this.state.searchValue}
               policies={this.state.policyResults} 

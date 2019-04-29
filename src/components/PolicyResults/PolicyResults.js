@@ -6,18 +6,27 @@ class PolicyResults extends React.Component {
     let policyArray = [];
     let policies = this.props.policies;
     let count = 0;
-    policies.forEach((policy) => {
+    if (policies.length > 0) {
+      policies.forEach((policy) => {
+        policyArray.push(
+          <li key={count}>
+            <a 
+              href={policy.url} 
+              rel="noopener noreferrer"
+              target="_blank">{ policy.name }
+            </a>
+          </li>
+        )
+        count++;
+      });
+    } else {
       policyArray.push(
         <li key={count}>
-          <a 
-            href={policy.url} 
-            rel="noopener noreferrer"
-            target="_blank">{ policy.name }
-          </a>
+          No Policies :(
         </li>
       )
-      count++;
-    });
+    }
+    
     return policyArray;
   }
 
