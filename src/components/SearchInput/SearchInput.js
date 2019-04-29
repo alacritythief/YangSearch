@@ -12,7 +12,8 @@ class SearchInput extends React.Component {
   handleChange = (event) => {
     this.setState({
       value: event.currentTarget.value
-    })
+    });
+    this.props.updateSearchValue(event.currentTarget.value);
   }
 
   handleSubmit = (event) => {

@@ -7,6 +7,7 @@ import {
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
 import { policySearch } from '../../lib/policysearch';
+import { SearchButton } from '../../ui-components/SearchButton';
 
 class App extends React.Component {
   constructor (props) {
@@ -17,21 +18,25 @@ class App extends React.Component {
     }
   }
 
-  getResults = (keyword) => {
-    let results = policySearch(keyword);
+  updateSearchValue = (value) => {
+    this.setState({
+      searchValue: value
+    })
+  }
+
+  getPolicyResults = (value) => {
+    let results = policySearch(value);
     this.setState({
       policyResults: results
     })
   }
 
-  getSearch = (value) => {
+  getSearchCallback = (value) => {
     this.setState({
       searchValue: value
     });
-    this.getResults(value);
+    this.getPolicyResults(value);
   }
-
-  
 
   render () {
     return (
@@ -41,9 +46,11 @@ class App extends React.Component {
           <ContentContainer>
             <h1>Yang2020 Search</h1>
             <h3>Search Andrew Yang's polices</h3>
-            <SearchInput 
-              callback={this.getSearch}
+            <SearchInput
+              updateSearchValue={this.updateSearchValue} 
+              callback={this.getSearchCallback}
             />
+            <SearchButton>Search</SearchButton>
             { this.state.searchValue !== '' ? <h2>Policy results for "{this.state.searchValue}":</h2> : null }
             { this.state.policyResults.length < 1 ? <p>No results found :(</p> : <PolicyResults policies={this.state.policyResults} />}
           </ContentContainer>
