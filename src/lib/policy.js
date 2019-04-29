@@ -2,6 +2,7 @@ export const PolicyData = [
   {
     name: 'Universal Basic Income',
     url: 'https://www.yang2020.com/policies/the-freedom-dividend/',
+    category: '',
     keywords: [
       'ubi',
       'freedom dividend',
@@ -17,6 +18,7 @@ export const PolicyData = [
   {
     name: 'Medicare for All',
     url: 'https://www.yang2020.com/policies/medicare-for-all/',
+    category: '',
     keywords: [
       'medicare for all',
       'healthcare',
@@ -31,6 +33,7 @@ export const PolicyData = [
   {
     name: 'Human-Centered Capitalism',
     url: 'https://www.yang2020.com/policies/human-capitalism/',
+    'category': '',
     keywords: [
       'human centered capitalism',
       'median income',
@@ -52,5 +55,195 @@ export const PolicyData = [
       'cybersecurity',
       'economic competitiveness'
     ]
+  },
+  {
+    name: 'Robo-Calling Text Line',
+    url: 'https://www.yang2020.com/policies/robo-calling-text-line/',
+    category: '',
+    keywords: [
+      'robocalls',
+      'robo-calling',
+      'phone',
+      'cellphone',
+      'solicitor',
+      'soliciting'
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
+  },
+  {
+    name: '',
+    url: '',
+    category: '',
+    keywords: [
+    ],
   }
 ]
+
+// TEMPLATE
+// {
+//   name: '',
+//   url: '',
+//   category: '',
+//   keywords: [
+//   ],
+// },
