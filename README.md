@@ -1,3 +1,7 @@
+# YangSearch
+
+A policy and media search engine for Andrew Yang, 2020 Democratic presidential candidate.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
