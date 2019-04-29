@@ -7,4 +7,5 @@ export const ResetSearchButton = styled.button`
   background-color: ${c.RED};
   font-size: 18px;
   padding: 0.5rem;
+  border: 1px solid ${c.BLACK};
 `

@@ -23,7 +23,7 @@ export const PolicyData = [
     keywords: [
       'medicare for all',
       'healthcare',
-      'doctors',
+      'doctor',
       'health',
       'medicine',
       'holistic',
@@ -220,6 +220,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'mall',
+      'community',
+      'community center'
     ],
   },
   {
@@ -234,6 +237,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'taxes',
+      'tax',
+      'finance'
     ],
   },
   {
@@ -241,7 +247,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
-      'taxes'
+      'taxes',
+      'tax'
     ],
   },
   {
@@ -249,6 +256,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'tax',
+      'taxes'
     ],
   },
   {
@@ -270,13 +279,27 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'paid leave'
     ],
   },
   {
     name: 'Make it Easy for Americans to Move for Work',
-    url: 'Modernize Military Spending',
+    url: '',
     category: '',
     keywords: [
+      'moving',
+      'work'
+    ],
+  },
+  {
+    name: 'Modernize Military Spending',
+    url: '',
+    category: '',
+    keywords: [
+      'military',
+      'spending',
+      'modern',
+      'modernization'
     ],
   },
   {
@@ -291,6 +314,11 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'college',
+      'university',
+      'education',
+      'student debt',
+      'debt'
     ],
   },
   {
@@ -298,6 +326,7 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'finance'
     ],
   },
   {
@@ -305,6 +334,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'finance',
+      'retirement'
     ],
   },
   {
@@ -312,6 +343,7 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'earmarks'
     ],
   },
   {
@@ -319,6 +351,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'medicine',
+      'doctor',
+      'physicians'
     ],
   },
   {
@@ -326,6 +361,12 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'education',
+      'college',
+      'university',
+      'student loan',
+      'debt',
+      'student debt'
     ],
   },
   {
@@ -333,6 +374,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'infrastructure',
+      'roads',
+      'bridges',
+      'airports'
     ],
   },
   {
@@ -340,6 +385,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'medicine',
+      'mental health',
+      'medical'
     ],
   },
   {
@@ -347,6 +395,7 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'medicine'
     ],
   },
   {
@@ -354,6 +403,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'parenting',
+      'parent',
+      'children'
     ],
   },
   {
@@ -361,6 +413,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'mental health',
+      'scorecard',
+      'america',
+      'data'
     ],
   },
   {
@@ -382,6 +438,7 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'law'
     ],
   },
   {
@@ -389,6 +446,11 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'marriage',
+      'community',
+      'family',
+      'parent',
+      'children'
     ],
   },
   {
@@ -396,6 +458,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'mental health',
+      'government'
     ],
   },
   {
@@ -403,6 +467,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'corruption',
+      'crime',
+      'regulation',
+      'government'
     ],
   },
   {
@@ -410,6 +478,7 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'exchange'
     ],
   },
   {
@@ -417,6 +486,11 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'finance',
+      'post office',
+      'banking',
+      'bank',
+      'savings'
     ],
   },
   {
@@ -424,6 +498,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'journalism',
+      'newspapers',
+      'news',
+      'writing'
     ],
   },
   {
@@ -431,6 +509,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'government',
+      'federal',
+      'bureaucracy'
     ],
   },
   {
@@ -438,6 +519,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'nuclear missles',
+      'nukes',
+      'war',
+      'conflict'
     ],
   },
   {
@@ -445,6 +530,11 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'ncaa',
+      'athletes',
+      'college',
+      'university',
+      'student'
     ],
   },
   {
@@ -452,6 +542,11 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'crime',
+      'law',
+      'police',
+      'cop',
+      'camera'
     ],
   },
   {
@@ -459,6 +554,12 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'smartphones',
+      'children',
+      'social media',
+      'parent',
+      'family',
+      'community'
     ],
   },
   {
@@ -466,6 +567,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'news',
+      'newspapers',
+      'ombudsman',
+      'libel'
     ],
   },
   {
@@ -473,6 +578,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'journalism',
+      'news',
+      'newspapers'
     ],
   },
   {
@@ -490,6 +598,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'medicine',
+      'crime'
     ],
   },
   {
@@ -510,6 +620,7 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'statehood'
     ],
   },
   {
@@ -517,6 +628,12 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      '420',
+      'marijuana',
+      'pot',
+      'dank',
+      'legalization',
+      'legal'
     ],
   },
   {
@@ -524,6 +641,12 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'children',
+      'education',
+      'preschool',
+      'pre-school',
+      'early',
+      'childhood'
     ],
   },
   {
@@ -532,7 +655,10 @@ export const PolicyData = [
     category: '',
     keywords: [
       'teacher',
-      'education'
+      'education',
+      'school',
+      'student',
+      'universities'
     ],
   },
   {
@@ -540,7 +666,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
-      'environment'
+      'environment',
+      'carbon',
+      'taxes',
+      'tax'
     ],
   },
   {
@@ -549,7 +678,8 @@ export const PolicyData = [
     category: '',
     keywords: [
       'vocational education',
-      'education'
+      'education',
+      'jobs'
     ],
   },
   {
@@ -557,6 +687,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'jobs',
+      'pay',
+      'equality',
+      'fairness'
     ],
   },
   {
@@ -564,6 +698,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'campaign',
+      'finance',
+      'election',
+      'citizens united'
     ],
   },
   {
@@ -571,6 +709,9 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'abortion',
+      'birth control',
+      'contraception'
     ],
   },
   {
@@ -587,7 +728,11 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
-      'immigration'
+      'immigration',
+      'immigrant',
+      'border security',
+      'border',
+      'security'
     ],
   },
   {
@@ -595,7 +740,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
-      'immigration'
+      'immigration',
+      'immigrant',
+      'citizenship',
+      'undocumented'
     ],
   },
   {
@@ -624,6 +772,11 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'family',
+      'community',
+      'children',
+      'newborn',
+      'parent'
     ],
   },
   {
@@ -631,6 +784,10 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'gun',
+      '2nd amendment',
+      'second amendment',
+      '2A'
     ],
   },
   {
@@ -638,6 +795,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'foreign policy',
+      'foreign'
     ],
   },
   {
@@ -645,7 +804,15 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
-      'LGBTQ'
+      'LGBTQ',
+      'lesbian',
+      'gay',
+      'bisexual',
+      'transgender',
+      'queer',
+      'LGBT',
+      'LGBT rights',
+      'gender rights'
     ],
   },
   {
@@ -653,6 +820,12 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
+      'treatment',
+      'medicine',
+      'crime',
+      'drugs',
+      'medicine',
+      'doctor'
     ],
   },
   {
@@ -761,7 +934,7 @@ export const PolicyData = [
     keywords: [
       'court',
       'supreme court',
-      'criminal justice'
+      'justice'
     ],
   },
   {
