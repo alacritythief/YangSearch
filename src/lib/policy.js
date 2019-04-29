@@ -476,7 +476,8 @@ export const PolicyData = [
       'community',
       'jobs',
       'work',
-      'economy'
+      'economy',
+      'loans'
     ],
   },
   {
@@ -523,7 +524,8 @@ export const PolicyData = [
       'education',
       'college',
       'university',
-      'student loan',
+      'loans',
+      'student loans',
       'debt',
       'student debt'
     ],
