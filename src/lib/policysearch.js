@@ -9,7 +9,7 @@ export const policySearch = (keyword) => {
     location: 0,
     distance: 64,
     maxPatternLength: 32,
-    minMatchCharLength: 3,
+    minMatchCharLength: 5,
     keys: [
       "name",
       "keywords"

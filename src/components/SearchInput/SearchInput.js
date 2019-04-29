@@ -18,8 +18,7 @@ class SearchInput extends React.Component {
 
   handleSubmit = (event) => {
     if (event.key === 'Enter' && this.state.value !== "") {
-      let lowercaseValue = this.state.value.toLocaleLowerCase()
-      this.props.callback(lowercaseValue);
+      this.props.callback(this.state.value);
     }
   }
 

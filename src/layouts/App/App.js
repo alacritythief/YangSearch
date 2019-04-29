@@ -5,9 +5,9 @@ import {
   ContentContainer
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
+import SearchButton from '../../components/SearchButton';
 import PolicyResults from '../../components/PolicyResults';
 import { policySearch } from '../../lib/policysearch';
-import { SearchButton } from '../../ui-components/SearchButton';
 
 class App extends React.Component {
   constructor (props) {
@@ -22,6 +22,14 @@ class App extends React.Component {
     this.setState({
       searchValue: value
     })
+
+    if (value.length >= 3) {
+      this.getPolicyResults(value)
+    } else {
+      this.setState({
+        policyResults: []
+      })
+    }
   }
 
   getPolicyResults = (value) => {
@@ -31,11 +39,8 @@ class App extends React.Component {
     })
   }
 
-  getSearchCallback = (value) => {
-    this.setState({
-      searchValue: value
-    });
-    this.getPolicyResults(value);
+  getSearchCallback = () => {
+    this.getPolicyResults(this.state.searchValue);
   }
 
   render () {
@@ -50,9 +55,11 @@ class App extends React.Component {
               updateSearchValue={this.updateSearchValue} 
               callback={this.getSearchCallback}
             />
-            <SearchButton>Search</SearchButton>
-            { this.state.searchValue !== '' ? <h2>Policy results for "{this.state.searchValue}":</h2> : null }
-            { this.state.policyResults.length < 1 ? <p>No results found :(</p> : <PolicyResults policies={this.state.policyResults} />}
+            <SearchButton text="Hello World"/>
+            <PolicyResults
+              searchValue={this.state.searchValue}
+              policies={this.state.policyResults} 
+            />
           </ContentContainer>
         </AppContainer>
       </React.Fragment>

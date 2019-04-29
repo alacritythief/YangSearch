@@ -36,7 +36,7 @@ export const PolicyData = [
     'category': '',
     keywords: [
       'human centered capitalism',
-      'median income',
+      'income',
       'standard of living',
       'life expectancy',
       'childhood success rates',
