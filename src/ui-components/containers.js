@@ -7,6 +7,10 @@ export const AppContainer = styled.div`
   margin: 1rem auto;
 `
 
+export const SearchContainer = styled.div`
+  display: flex;
+`
+
 export const ContentContainer = styled.div`
 `
 

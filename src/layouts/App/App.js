@@ -2,7 +2,8 @@ import React from 'react';
 import { GlobalStyle } from '../../constants/global';
 import {
   AppContainer,
-  ContentContainer
+  ContentContainer,
+  SearchContainer
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
@@ -61,12 +62,14 @@ class App extends React.Component {
           <ContentContainer>
             <h1>Yang2020 Search</h1>
             <h3>Search Andrew Yang's polices</h3>
-            <SearchInput
-              ref="searchInput"
-              updateSearchValue={this.updateSearchValue} 
-              callback={this.getSearchCallback}
-            />
-            <ResetSearchButton onClick={() => this.resetSearch()}>Reset</ResetSearchButton>
+            <SearchContainer>
+              <SearchInput
+                ref="searchInput"
+                updateSearchValue={this.updateSearchValue} 
+                callback={this.getSearchCallback}
+              />
+              <ResetSearchButton onClick={() => this.resetSearch()}>Reset</ResetSearchButton>
+            </SearchContainer>
             <PolicyResults
               searchValue={this.state.searchValue}
               policies={this.state.policyResults} 
