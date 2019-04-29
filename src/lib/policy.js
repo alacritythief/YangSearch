@@ -26,6 +26,7 @@ export const PolicyData = [
       'doctor',
       'health',
       'medicine',
+      'medical',
       'holistic',
       'public option',
       'single payer',
@@ -69,7 +70,12 @@ export const PolicyData = [
       'phone',
       'cellphone',
       'solicitor',
-      'soliciting'
+      'soliciting',
+      'harrassment',
+      'FCC',
+      'complaint',
+      'illegal',
+      'crime'
     ],
   },
   {
@@ -82,7 +88,10 @@ export const PolicyData = [
       'technology',
       'regulate',
       'regulation',
-      'machine learning'
+      'machine learning',
+      'Elon Musk',
+      'secretary of technology',
+      'silicon valley'
     ],
   },
   {
@@ -93,7 +102,13 @@ export const PolicyData = [
       'internet',
       'net',
       'utility',
-      'web'
+      'web',
+      'ISP',
+      'comcast',
+      'verizon',
+      'at&t',
+      't-mobile',
+      'sprint'
     ],
   },
   {
@@ -104,6 +119,9 @@ export const PolicyData = [
       'tax',
       'fun',
       'holiday',
+      'federal holiday',
+      'federal',
+      'government',
       'irs',
       'revenue',
       'revenue day'
@@ -118,7 +136,14 @@ export const PolicyData = [
       'media',
       'press',
       'facts',
-      'fact checking'
+      'fact checking',
+      'facebook',
+      'twitter',
+      'social media',
+      'russia',
+      'russian intervention',
+      'foreign intervention',
+      'intervention'
     ],
   },
   {
@@ -132,7 +157,11 @@ export const PolicyData = [
       'market',
       'free market',
       'abuse',
-      'protection'
+      'protection',
+      'mortgage',
+      'financial crisis',
+      'recession',
+      'illegal'
     ],
   },
   {
@@ -163,7 +192,9 @@ export const PolicyData = [
       'government',
       'polling',
       'blockchain',
-      'effective government'
+      'effective government',
+      'technology',
+      'democracy'
     ],
   },
   {
@@ -177,7 +208,9 @@ export const PolicyData = [
       'sustainability',
       'environment',
       'carbon',
-      'carbon-free'
+      'carbon-free',
+      'electricity',
+      'electric'
     ],
   },
   {
@@ -193,7 +226,9 @@ export const PolicyData = [
       'free market',
       'algorithms',
       'equity',
-      'accountability'
+      'accountability',
+      'investigation',
+      'illegal'
     ],
   },
   {
@@ -205,7 +240,12 @@ export const PolicyData = [
       'affordable',
       'zoning laws',
       'local',
-      'development'
+      'development',
+      'home ownership',
+      'housing cost',
+      'rent',
+      'buy',
+      'law'
     ],
   },
   {
@@ -213,42 +253,81 @@ export const PolicyData = [
     url: 'https://www.yang2020.com/policies/enticing-high-skill-individuals/',
     category: '',
     keywords: [
+      'h1b',
+      'f1',
+      'H1-B',
+      'F-1',
+      'visa',
+      'immigrant',
+      'immigration'
     ],
   },
   {
     name: 'American Mall Act',
-    url: '',
+    url: 'https://www.yang2020.com/policies/american-mall-act/',
     category: '',
     keywords: [
       'mall',
       'community',
-      'community center'
+      'community center',
+      'socialization',
+      'commerce',
+      'amazon',
+      'investment',
+      'economy',
+      'local',
+      'retail',
+      'buildings',
+      'blight'
     ],
   },
   {
     name: 'Tort Reform/Reasonableness Dismissals',
-    url: '',
+    url: 'https://www.yang2020.com/policies/tort-reform-reasonableness-dismissals/',
     category: '',
     keywords: [
+      'litigation',
+      'tort',
+      'lawsuit',
+      'justice',
+      'court',
+      'crime',
+      'judge',
+      'appeal'
     ],
   },
   {
     name: 'Financial Transaction Tax',
-    url: '',
+    url: 'https://www.yang2020.com/policies/financial-transaction-tax/',
     category: '',
     keywords: [
       'taxes',
       'tax',
-      'finance'
+      'finance',
+      'bubble',
+      'economy',
+      'market',
+      'stock',
+      'trade',
+      'fund',
+      'mutual fund'
     ],
   },
   {
     name: 'File Income Taxes',
-    url: '',
+    url: 'https://www.yang2020.com/policies/filing-income-taxes/',
     category: '',
     keywords: [
       'taxes',
-      'tax'
+      'tax',
+      'turbotax',
+      'efile',
+      'e-file',
+      'tax prep',
+      'IRS',
+      'government',
+      'automation',
+      'treasury'
     ],
   },
   {
@@ -352,6 +431,7 @@ export const PolicyData = [
     category: '',
     keywords: [
       'medicine',
+      'medical',
       'doctor',
       'physicians'
     ],
@@ -395,7 +475,8 @@ export const PolicyData = [
     url: '',
     category: '',
     keywords: [
-      'medicine'
+      'medicine',
+      'medical'
     ],
   },
   {
@@ -590,7 +671,8 @@ export const PolicyData = [
     keywords: [
       'mental health',
       'healthcare',
-      'medicine'
+      'medicine',
+      'medical'
     ],
   },
   {
@@ -599,6 +681,7 @@ export const PolicyData = [
     category: '',
     keywords: [
       'medicine',
+      'medical',
       'crime'
     ],
   },
@@ -821,11 +904,18 @@ export const PolicyData = [
     category: '',
     keywords: [
       'treatment',
+      'health',
+      'healthcare',
       'medicine',
       'crime',
       'drugs',
-      'medicine',
-      'doctor'
+      'medical',
+      'pills',
+      'doctor',
+      'fentanyl',
+      'heroin',
+      'oxycontin',
+      'percocet'
     ],
   },
   {
