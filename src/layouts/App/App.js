@@ -61,7 +61,7 @@ class App extends React.Component {
         <AppContainer>
           <ContentContainer>
             <h1>YangSearch</h1>
-            <h3>Search <a href="https://www.yang2020.com/">Andrew Yang's</a> Policies ({ policyCounter()} and counting!)</h3>
+            <p>Search <a href="https://www.yang2020.com/">Andrew Yang's</a> Policies ({ policyCounter()} and counting!)</p>
             <SearchContainer>
               <SearchInput
                 ref="searchInput"

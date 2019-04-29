@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
   html {
     font-size: 20px;
     font-family: Helvetica, Arial, sans-serif;
+    margin-left: calc(100vw - 100%);
   }
 
   *, *:before, *:after {
