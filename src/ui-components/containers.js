@@ -24,12 +24,14 @@ export const ContentContainer = styled.div`
 `
 
 export const PolicyResultsContainer = styled.div`
+  background-color: ${c.COOLGRAY};
+  border: 1px solid ${c.COOLGRAY};
+  border-radius: 3px;  
+  display: inline-block;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
-  background-color: ${c.COOLGRAY};
-  border: 1px solid ${c.COOLGRAY};
-  border-radius: 3px;
+  width: 100%;
 
   p:nth-child(n+2) {
     margin-top: 1rem;
