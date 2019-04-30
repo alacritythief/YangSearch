@@ -12,10 +12,10 @@ export const ResetSearchButton = styled.button`
   outline: none;
 
   &:hover {
-    background-color: ${c.DARKRED};
+    background-color: ${c.LIGHTRED};
   }
 
   &:active {
-    background-color: ${c.LIGHTRED};
+    background-color: ${c.DARKRED};
   }
 `

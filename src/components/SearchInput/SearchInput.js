@@ -18,6 +18,7 @@ class SearchInput extends React.Component {
 
   handleSubmit = (event) => {
     if (event.key === 'Enter' && this.state.value !== "") {
+      event.currentTarget.blur();
       this.props.callback(this.state.value);
     }
   }

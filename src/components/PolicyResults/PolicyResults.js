@@ -36,7 +36,8 @@ class PolicyResults extends React.Component {
       return (
         <PolicyResultsContainer>
           <p>
-            <strong>Type any keyword in the search bar (like: education, health, jobs) 
+            <strong>Type any keyword in the search bar 
+            (like: education, health, jobs, economy) 
             above to see Andrew Yang's related policies. 
             Policy links will open in a new tab.</strong>
           </p>
