@@ -41,9 +41,20 @@ class PolicyResults extends React.Component {
             Policy links will open in a new tab.</strong>
           </p>
           <p>
-            <a href="https://youtu.be/HeYZlp0IvCo">Andrew Yang is running for President</a> as a Democrat in 2020 
+            <strong>Who is Andrew Yang?</strong><br/>
+            <a href="https://youtu.be/HeYZlp0IvCo" rel="noopener noreferrer" target="_blank">
+            Andrew Yang is running for President (video)</a> as a Democrat in 2020 
             and he's here to remind us that the economy exists to serve 
-            the people and not the other way around. <a href="https://twitter.com/hashtag/Yang2020">#Yang2020</a> <a href="https://twitter.com/hashtag/HumanityFirst">#HumanityFirst</a>
+            the people and not the other way around. His first priority will be to implement a Universal Basic Income
+            for every American adult over the age of 18: $1,000 a month, no strings attached, paid for by a new tax on 
+            the companies benefiting most from automation. <a href="https://www.yang2020.com/meet-andrew/" rel="noopener noreferrer" target="_blank">
+            You can read more about him here</a>.
+          </p>
+          <p>
+            <strong>What is the purpose of this site?</strong><br/>
+            To be a quick portal to find everything related to Andrew Yang's 2020 campaign: 
+            his policies, interviews, rallies, media appearances, and content from his supporters 
+            nicknamed the "Yang Gang". For this first version we have searchable policies. 
           </p>
           <p>
             <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers.
