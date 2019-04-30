@@ -64,7 +64,9 @@ class App extends React.Component {
         <AppContainer>
           <ContentContainer>
             <Logo><YangSearchLogo /></Logo>
-            <WhiteText>Search <a href="https://www.yang2020.com/">Andrew Yang's</a> Policies ({ policyCounter()} and counting!)</WhiteText>
+            <WhiteText>
+              <a href="https://www.yang2020.com/policies/">Full Policy List ({ policyCounter()})</a> | <a href="https://www.yang2020.com/meet-andrew/">Who is Andrew Yang?</a> | <a href="https://secure.actblue.com/donate/friends-of-andrew-yang">Donate $20 Today!</a> | <a href="https://twitter.com/alacritythief">Who created this?</a>
+            </WhiteText>
             <SearchContainer>
               <SearchInput
                 ref="searchInput"

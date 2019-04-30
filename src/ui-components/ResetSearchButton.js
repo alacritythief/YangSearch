@@ -9,9 +9,13 @@ export const ResetSearchButton = styled.button`
   background-color: ${c.RED};
   font-size: 18px;
   padding: 0.5rem;
-  outline-color: ${c.RED};
+  outline: none;
 
   &:hover {
     background-color: ${c.DARKRED};
+  }
+
+  &:active {
+    background-color: ${c.LIGHTRED};
   }
 `

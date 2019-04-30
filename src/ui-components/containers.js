@@ -30,12 +30,20 @@ export const PolicyResultsContainer = styled.div`
   background-color: ${c.COOLGRAY};
   border: 1px solid ${c.COOLGRAY};
   border-radius: 3px;
+
+  p:nth-child(n+2) {
+    margin-top: 1rem;
+  }
 `
 
 export const WhiteText = styled.p`
   color: ${c.WHITE};
 
   a {
+    color: ${c.WHITE};
+  }
+
+  a:hover {
     color: ${c.RED};
   }
 `
