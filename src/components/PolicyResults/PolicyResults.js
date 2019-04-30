@@ -57,7 +57,7 @@ class PolicyResults extends React.Component {
             nicknamed the "Yang Gang". For this first version we have searchable policies. 
           </p>
           <p>
-            <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers.
+            <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers, and volunteer resources.
           </p>
         </PolicyResultsContainer>
       )
