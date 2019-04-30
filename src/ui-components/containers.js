@@ -51,6 +51,14 @@ export const WhiteText = styled.p`
 `
 
 export const Logo = styled.div`
+  display: inline-block;
   max-width: 300px;
   max-height: 61px;
+`
+
+export const MathHatContainer = styled.img`
+  display: inline-block;
+  vertical-align: top;
+  height: 60px;
+  width: 60px;
 `
