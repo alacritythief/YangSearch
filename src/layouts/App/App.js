@@ -3,10 +3,13 @@ import { GlobalStyle } from '../../constants/global';
 import {
   AppContainer,
   ContentContainer,
-  SearchContainer
+  SearchContainer,
+  WhiteText,
+  Logo
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
+import { ReactComponent as YangSearchLogo } from '../../img/yangsearch_logo.svg';
 import { policySearch, policyCounter } from '../../lib/policysearch';
 import { ResetSearchButton } from '../../ui-components/ResetSearchButton';
 
@@ -60,8 +63,8 @@ class App extends React.Component {
         <GlobalStyle />
         <AppContainer>
           <ContentContainer>
-            <h1>YangSearch</h1>
-            <p>Search <a href="https://www.yang2020.com/">Andrew Yang's</a> Policies ({ policyCounter()} and counting!)</p>
+            <Logo><YangSearchLogo /></Logo>
+            <WhiteText>Search <a href="https://www.yang2020.com/">Andrew Yang's</a> Policies ({ policyCounter()} and counting!)</WhiteText>
             <SearchContainer>
               <SearchInput
                 ref="searchInput"

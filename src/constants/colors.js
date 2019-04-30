@@ -9,4 +9,5 @@ export const LIGHTBLUE = '#6CACE4';
 export const MEDBLUE = '#002D72';
 export const DARKBLUE = '#13294B';
 export const RED = '#DA3248';
+export const DARKRED = '#982332'
 export const COOLGRAY = '#EAEAEA';
