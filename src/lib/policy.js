@@ -1421,7 +1421,7 @@ export const PolicyData = [
     url: 'https://www.yang2020.com/policies/gun-safety/',
     category: 'Society',
     keywords: [
-      'society'
+      'society',
       'guns',
       '2nd amendment',
       'second amendment',
