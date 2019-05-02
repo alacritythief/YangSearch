@@ -1,6 +1,6 @@
 # YangSearch 🇺🇸
 
-A policy and media search portal for Andrew Yang, 2020 Democratic presidential candidate.
+A policy and media search portal for [Andrew Yang](https://www.yang2020.com/), 2020 Democratic presidential candidate.
 
 Created by [Andy Wong](https://github.com/alacritythief) with the support of Yang Gang volunteers across the USA.
 
