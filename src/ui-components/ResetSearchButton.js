@@ -13,6 +13,7 @@ export const ResetSearchButton = styled.button`
 
   &:hover {
     background-color: ${c.LIGHTRED};
+    cursor: pointer;
   }
 
   &:active {
