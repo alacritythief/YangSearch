@@ -1,5 +1,5 @@
 # YangSearch 🇺🇸
-## https://yangsearch.com/
+### https://yangsearch.com/
 
 A policy and media search portal for [Andrew Yang](https://www.yang2020.com/), 2020 Democratic presidential candidate.
 
