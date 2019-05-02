@@ -1,8 +1,8 @@
 export const PolicyData = [
   {
-    name: 'Universal Basic Income',
+    name: 'The Freedom Dividend',
     url: 'https://www.yang2020.com/policies/the-freedom-dividend/',
-    category: '',
+    category: 'Universal Basic Income',
     keywords: [
       'ubi',
       'freedom dividend',
@@ -19,7 +19,7 @@ export const PolicyData = [
   {
     name: 'Medicare for All',
     url: 'https://www.yang2020.com/policies/medicare-for-all/',
-    category: '',
+    category: 'Health',
     keywords: [
       'medicare for all',
       'healthcare',
@@ -36,8 +36,9 @@ export const PolicyData = [
   {
     name: 'Human-Centered Capitalism',
     url: 'https://www.yang2020.com/policies/human-capitalism/',
-    'category': '',
+    'category': 'Capitalism',
     keywords: [
+      'capitalism',
       'human capitalism',
       'human centered capitalism',
       'income',
@@ -65,8 +66,9 @@ export const PolicyData = [
   {
     name: 'Robo-Calling Text Line',
     url: 'https://www.yang2020.com/policies/robo-calling-text-line/',
-    category: '',
+    category: 'Technology',
     keywords: [
+      'technology',
       'robocalls',
       'robo-calling',
       'phone',
@@ -83,7 +85,7 @@ export const PolicyData = [
   {
     name: 'Regulate AI and other Emerging Technologies',
     url: 'https://www.yang2020.com/policies/regulating-ai-emerging-technologies/',
-    category: '',
+    category: 'Technology',
     keywords: [
       'ai',
       'artificial intelligence',
@@ -99,7 +101,7 @@ export const PolicyData = [
   {
     name: 'Net Neutrality',
     url: 'https://www.yang2020.com/policies/net-neutrality/',
-    category: '',
+    category: 'Technology',
     keywords: [
       'internet',
       'net',
@@ -110,13 +112,14 @@ export const PolicyData = [
       'verizon',
       'at&t',
       't-mobile',
-      'sprint'
+      'sprint',
+      'technology'
     ],
   },
   {
     name: 'Making Taxes Fun',
     url: 'https://www.yang2020.com/policies/making-taxes-fun/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'tax',
       'fun',
@@ -126,7 +129,8 @@ export const PolicyData = [
       'government',
       'irs',
       'revenue',
-      'revenue day'
+      'revenue day',
+      'economy'
     ],
   },
   {
@@ -185,7 +189,7 @@ export const PolicyData = [
   {
     name: 'Modernize Voting',
     url: 'https://www.yang2020.com/policies/modernize-voting/',
-    category: '',
+    category: 'Voting',
     keywords: [
       'voting',
       'vote',
@@ -196,13 +200,14 @@ export const PolicyData = [
       'blockchain',
       'effective government',
       'technology',
-      'democracy'
+      'democracy',
+      'elections'
     ],
   },
   {
     name: 'Nuclear Energy',
     url: 'https://www.yang2020.com/policies/nuclear-energy/',
-    category: '',
+    category: 'Environment',
     keywords: [
       'energy',
       'nuclear',
@@ -218,7 +223,7 @@ export const PolicyData = [
   {
     name: 'Algorithmic Trading/Fraud',
     url: 'https://www.yang2020.com/policies/algorithmic-trading-fraud/',
-    category: '',
+    category: 'technology',
     keywords: [
       'CFTC',
       'trading',
@@ -230,7 +235,8 @@ export const PolicyData = [
       'equity',
       'accountability',
       'investigation',
-      'illegal'
+      'illegal',
+      'technology'
     ],
   },
   {
@@ -253,7 +259,7 @@ export const PolicyData = [
   {
     name: 'Entice High-Skill Individuals',
     url: 'https://www.yang2020.com/policies/enticing-high-skill-individuals/',
-    category: '',
+    category: 'Immigration',
     keywords: [
       'h1b',
       'f1',
@@ -269,7 +275,7 @@ export const PolicyData = [
   {
     name: 'American Mall Act',
     url: 'https://www.yang2020.com/policies/american-mall-act/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'mall',
       'community',
@@ -306,7 +312,7 @@ export const PolicyData = [
   {
     name: 'Financial Transaction Tax',
     url: 'https://www.yang2020.com/policies/financial-transaction-tax/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'taxes',
       'tax',
@@ -323,7 +329,7 @@ export const PolicyData = [
   {
     name: 'File Income Taxes',
     url: 'https://www.yang2020.com/policies/filing-income-taxes/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'taxes',
       'tax',
@@ -334,13 +340,14 @@ export const PolicyData = [
       'IRS',
       'government',
       'automation',
-      'treasury'
+      'treasury',
+      'economy'
     ],
   },
   {
     name: 'Capital Gain/Carried Interest Tax',
     url: 'https://www.yang2020.com/policies/capital-gain-carried-interest-tax/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'tax',
       'taxes',
@@ -351,13 +358,14 @@ export const PolicyData = [
       'interest',
       'loophole',
       'capital',
-      'gain'
+      'gain',
+      'economy'
     ],
   },
   {
     name: 'Ease the Transition to Self-Driving Vehicles',
     url: 'https://www.yang2020.com/policies/trucking-czar/',
-    category: '',
+    category: 'technology',
     keywords: [
       'cars',
       'technology',
@@ -380,7 +388,7 @@ export const PolicyData = [
   {
     name: 'Implement Mandatory Paid Leave Policy',
     url: 'https://www.yang2020.com/policies/mandatory-vacation/',
-    category: '',
+    category: 'Workers\' Rights',
     keywords: [
       'paid leave',
       'parent',
@@ -397,13 +405,15 @@ export const PolicyData = [
       'jobs',
       'work',
       'economy',
-      'productivity'
+      'productivity',
+      'workers',
+      'workers\' rights'
     ],
   },
   {
     name: 'Make it Easy for Americans to Move for Work',
     url: 'https://www.yang2020.com/policies/get-america-moving/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'home',
       'economy',
@@ -444,7 +454,7 @@ export const PolicyData = [
   {
     name: 'Life-Skills Education in All High Schools',
     url: 'https://www.yang2020.com/policies/life-skills-education/',
-    category: '',
+    category: 'Education',
     keywords: [
       'education',
       'life skills',
@@ -465,7 +475,7 @@ export const PolicyData = [
   {
     name: 'Make Community College Affordable for All',
     url: 'https://www.yang2020.com/policies/close-skills-gap-community-college/',
-    category: '',
+    category: 'Education',
     keywords: [
       'college',
       'higher education',
@@ -485,7 +495,7 @@ export const PolicyData = [
   {
     name: 'Free Financial Counseling for All',
     url: 'https://www.yang2020.com/policies/financial-counseling/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'finance',
       'financial literacy',
@@ -506,13 +516,14 @@ export const PolicyData = [
       'community college',
       'higher education',
       'advice',
-      'savings'
+      'savings',
+      'economy'
     ],
   },
   {
     name: 'Make it Easier to Save for Retirement',
     url: 'https://www.yang2020.com/policies/telescoping-retirement-accounts/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'finance',
       'retirement',
@@ -521,13 +532,14 @@ export const PolicyData = [
       'savings',
       'tax-free',
       'retirement accounts',
-      'income'
+      'income',
+      'economy'
     ],
   },
   {
     name: 'Support the Revival of Earmarks',
     url: 'https://www.yang2020.com/policies/support-revival-earmarks/',
-    category: '',
+    category: 'Government',
     keywords: [
       'earmarks',
       'legislation',
@@ -545,7 +557,7 @@ export const PolicyData = [
   {
     name: 'Expand Access to Medical Experts',
     url: 'https://www.yang2020.com/policies/expanding-medical-licensure/',
-    category: '',
+    category: 'Health',
     keywords: [
       'health',
       'medicine',
@@ -569,7 +581,7 @@ export const PolicyData = [
   {
     name: 'Reduce Student Loan Burden',
     url: 'https://www.yang2020.com/policies/student-loan-debt/',
-    category: '',
+    category: 'Education',
     keywords: [
       'education',
       'college',
@@ -630,7 +642,7 @@ export const PolicyData = [
   {
     name: 'Fund Autism Intervention',
     url: 'https://www.yang2020.com/policies/autism-intervention-funding/',
-    category: '',
+    category: 'Health',
     keywords: [
       'medicine',
       'mental health',
@@ -652,7 +664,7 @@ export const PolicyData = [
   {
     name: 'Fund Medical Technology Innovation',
     url: 'https://www.yang2020.com/policies/medical-technology-innovation/',
-    category: '',
+    category: 'technology',
     keywords: [
       'medicine',
       'medical',
@@ -748,7 +760,7 @@ export const PolicyData = [
   {
     name: 'Prosperity Grants',
     url: 'https://www.yang2020.com/policies/prosperity-grants/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'government',
       'non-profit',
@@ -759,7 +771,8 @@ export const PolicyData = [
       'local',
       'community',
       'IRS',
-      'tax code'
+      'tax code',
+      'economy'
     ],
   },
   {
@@ -803,7 +816,7 @@ export const PolicyData = [
   {
     name: 'Closely Monitor Mental Health of White House Staff',
     url: 'https://www.yang2020.com/policies/white-house-psychologist/',
-    category: '',
+    category: 'Health',
     keywords: [
       'mental health',
       'healthcare',
@@ -828,7 +841,7 @@ export const PolicyData = [
   {
     name: 'Prevent Corruption among Federal Regulators',
     url: 'https://www.yang2020.com/policies/pay-president-regulators/',
-    category: '',
+    category: 'Government',
     keywords: [
       'corruption',
       'crime',
@@ -866,7 +879,7 @@ export const PolicyData = [
   {
     name: 'Provide Basic Banking Services through the Post Office',
     url: 'https://www.yang2020.com/policies/post-offices-provide-basic-banking-services/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'finance',
       'post office',
@@ -876,7 +889,8 @@ export const PolicyData = [
       'basic banking services',
       'basic services',
       'loans',
-      'lending'
+      'lending',
+      'economy'
     ],
   },
   {
@@ -902,7 +916,7 @@ export const PolicyData = [
   {
     name: 'Limit Bureaucracy in the Federal Workforce',
     url: 'https://www.yang2020.com/policies/downsizing-federal-workforce/',
-    category: '',
+    category: 'Government',
     keywords: [
       'government',
       'federal',
@@ -937,7 +951,7 @@ export const PolicyData = [
   {
     name: 'NCAA Should Pay Athletes',
     url: 'https://www.yang2020.com/policies/ncaa-pay-athletes/',
-    category: '',
+    category: 'Sports',
     keywords: [
       'NCAA',
       'athletes',
@@ -977,7 +991,7 @@ export const PolicyData = [
   {
     name: 'Reduce Harm to Children Caused by Smartphones',
     url: 'https://www.yang2020.com/policies/effects-smartphones-human-development/',
-    category: '',
+    category: 'technology',
     keywords: [
       'smartphones',
       'children',
@@ -987,7 +1001,8 @@ export const PolicyData = [
       'family',
       'families',
       'community',
-      'dark patterns'
+      'dark patterns',
+      'technology'
     ],
   },
   {
@@ -1026,7 +1041,7 @@ export const PolicyData = [
   {
     name: 'Invest in America’s Mental Health',
     url: 'https://www.yang2020.com/policies/mental-health/',
-    category: '',
+    category: 'Health',
     keywords: [
       'mental health',
       'healthcare',
@@ -1076,7 +1091,7 @@ export const PolicyData = [
   {
     name: 'Value-Added Tax',
     url: 'https://www.yang2020.com/policies/value-added-tax/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'vat',
       'value added tax',
@@ -1102,14 +1117,15 @@ export const PolicyData = [
   {
     name: 'Make Puerto Rico a State',
     url: 'https://www.yang2020.com/policies/puerto-rican-statehood/',
-    category: '',
+    category: 'States Rights',
     keywords: [
       'statehood',
       'puerto rico',
       'natural disasters',
       'citizens',
       'americans',
-      'puerto ricans'
+      'puerto ricans',
+      'states rights'
     ],
   },
   {
@@ -1139,7 +1155,7 @@ export const PolicyData = [
   {
     name: 'Early Childhood Education for All',
     url: 'https://www.yang2020.com/policies/early-childhood-education/',
-    category: '',
+    category: 'Education',
     keywords: [
       'children',
       'education',
@@ -1160,7 +1176,7 @@ export const PolicyData = [
   {
     name: 'Increase Teacher Salaries',
     url: 'https://www.yang2020.com/policies/teacher-salaries/',
-    category: '',
+    category: 'Education',
     keywords: [
       'teachers',
       'mentors',
@@ -1177,7 +1193,7 @@ export const PolicyData = [
   {
     name: 'Carbon Fee and Dividend',
     url: 'https://www.yang2020.com/policies/carbon-fee-dividend/',
-    category: '',
+    category: 'Environment',
     keywords: [
       'environment',
       'carbon',
@@ -1197,7 +1213,7 @@ export const PolicyData = [
   {
     name: 'Promote Vocational Education',
     url: 'https://www.yang2020.com/policies/promoting-vocational-education/',
-    category: '',
+    category: 'Education',
     keywords: [
       'vocational education',
       'higher education',
@@ -1216,7 +1232,7 @@ export const PolicyData = [
   {
     name: 'Fight for Equal Pay',
     url: 'https://www.yang2020.com/policies/fight-for-equal-pay/',
-    category: '',
+    category: 'Workers\' Rights',
     keywords: [
       'jobs',
       'work',
@@ -1225,6 +1241,8 @@ export const PolicyData = [
       'fairness',
       'economy',
       'women\'s rights',
+      'workers\' rights',
+      'rights',
       'men',
       'women',
       'black',
@@ -1238,12 +1256,15 @@ export const PolicyData = [
   {
     name: 'Campaign Finance Reform',
     url: 'https://www.yang2020.com/policies/overturning-citizens-united/',
-    category: '',
+    category: 'Voting',
     keywords: [
       'campaign',
       'finance',
-      'election',
-      'citizens united'
+      'elections',
+      'citizens united',
+      'vote',
+      'voters',
+      'voting'
     ],
   },
   {
@@ -1266,10 +1287,11 @@ export const PolicyData = [
   {
     name: 'Support the DREAM Act',
     url: 'https://www.yang2020.com/policies/support-the-dream-act/',
-    category: '',
+    category: 'Immigration',
     keywords: [
       'dreamers',
       'immigration',
+      'immigrants',
       'illegal immigration',
       'citizenship',
       'citizen',
@@ -1281,7 +1303,7 @@ export const PolicyData = [
   {
     name: 'Southern Border Security',
     url: 'https://www.yang2020.com/policies/southern-border-security/',
-    category: '',
+    category: 'Immigration',
     keywords: [
       'immigration',
       'immigrant',
@@ -1300,7 +1322,7 @@ export const PolicyData = [
   {
     name: 'Pathway to Citizenship for Undocumented Immigrants',
     url: 'https://www.yang2020.com/policies/pathway-to-citizenship-2/',
-    category: '',
+    category: 'Immigration',
     keywords: [
       'immigration',
       'immigrant',
@@ -1315,7 +1337,7 @@ export const PolicyData = [
   {
     name: 'Control the Cost of Higher Education',
     url: 'https://www.yang2020.com/policies/controlling-cost-higher-education/',
-    category: '',
+    category: 'Education',
     keywords: [
       'education',
       'college',
@@ -1331,10 +1353,10 @@ export const PolicyData = [
   {
     name: 'Support for the Arts',
     url: 'https://www.yang2020.com/policies/support-for-the-arts/',
-    category: '',
+    category: 'Arts',
     keywords: [
       'creativity',
-      'art',
+      'arts',
       'music',
       'film',
       'media',
@@ -1352,7 +1374,7 @@ export const PolicyData = [
   {
     name: 'Paid Family Leave',
     url: 'https://www.yang2020.com/policies/paid-family-leave/',
-    category: '',
+    category: 'Workers\' Rights',
     keywords: [
       'paid leave',
       'parent',
@@ -1370,7 +1392,9 @@ export const PolicyData = [
       'jobs',
       'work',
       'economy',
-      'productivity'
+      'productivity',
+      'workers',
+      'workers\' rights'
     ],
   },
   {
@@ -1394,7 +1418,7 @@ export const PolicyData = [
   {
     name: 'Foreign Policy First Principles',
     url: 'https://www.yang2020.com/policies/foreign-policy-first-principles/',
-    category: '',
+    category: 'Foreign Policy',
     keywords: [
       'foreign policy',
       'foreign',
@@ -1435,7 +1459,7 @@ export const PolicyData = [
   {
     name: 'Opioid Crisis',
     url: 'https://www.yang2020.com/policies/opioid-crisis/',
-    category: '',
+    category: 'Health',
     keywords: [
       'treatment',
       'medicine',
@@ -1489,7 +1513,7 @@ export const PolicyData = [
   {
     name: 'Combat Climate Change',
     url: 'https://www.yang2020.com/policies/climate-change/',
-    category: '',
+    category: 'Environment',
     keywords: [
       'climate',
       'climate change',
@@ -1533,11 +1557,12 @@ export const PolicyData = [
   {
     name: 'Ranked Choice Voting',
     url: 'https://www.yang2020.com/policies/rankedchoice/',
-    category: '',
+    category: 'Voting',
     keywords: [
       'government',
       'voting',
       'vote',
+      'voters',
       'elections',
       'fairness',
       'ranked choice',
@@ -1547,19 +1572,22 @@ export const PolicyData = [
   {
     name: 'Democracy Dollars',
     url: 'https://www.yang2020.com/policies/democracydollars/',
-    category: '',
+    category: 'Voting',
     keywords: [
       'campaign finance',
       'government',
       'elections',
       'fairness',
-      'reform'
+      'reform',
+      'voting',
+      'voters',
+      'vote'
     ],
   },
   {
     name: 'Relocate Federal Agencies',
     url: 'https://www.yang2020.com/policies/relocatefederalagencies/',
-    category: '',
+    category: 'Government',
     keywords: [
       'government',
       'federal agencies',
@@ -1601,8 +1629,8 @@ export const PolicyData = [
   },
   {
     name: 'Lower the Voting Age to 16',
-    url: '',
-    category: 'https://www.yang2020.com/policies/votingage/',
+    url: 'https://www.yang2020.com/policies/votingage/',
+    category: 'Voting',
     keywords: [
       'sixteen',
       '16',
@@ -1619,7 +1647,7 @@ export const PolicyData = [
   {
     name: 'Revive the Office of Technology Assessment',
     url: 'https://www.yang2020.com/policies/reviveota/',
-    category: '',
+    category: 'technology',
     keywords: [
       'technology',
       'government',
@@ -1636,7 +1664,7 @@ export const PolicyData = [
   {
     name: '18 Year Term Limit for Supreme Court Justices',
     url: 'https://www.yang2020.com/policies/scotustermlimits/',
-    category: '',
+    category: 'Government',
     keywords: [
       'court',
       'supreme court',
@@ -1645,13 +1673,14 @@ export const PolicyData = [
       'laws',
       'term limits',
       'eighteen years',
-      '18'
+      '18',
+      'government'
     ],
   },
   {
     name: 'Empowering MMA Fighters',
     url: 'https://www.yang2020.com/policies/empowering-mma-fighters/',
-    category: '',
+    category: 'Sports',
     keywords: [
       'MMA',
       'mixed martial arts',
@@ -1665,7 +1694,7 @@ export const PolicyData = [
   {
     name: 'Make Election Day a Holiday',
     url: 'https://www.yang2020.com/policies/election-day-holiday/',
-    category: '',
+    category: 'Voting',
     keywords: [
       'holiday',
       'elections',
@@ -1679,7 +1708,7 @@ export const PolicyData = [
   {
     name: 'The Penny Makes No Cents',
     url: 'https://www.yang2020.com/policies/no-pennies/',
-    category: '',
+    category: 'Economy',
     keywords: [
       'penny',
       'change',
@@ -1694,7 +1723,7 @@ export const PolicyData = [
   {
     name: 'Quantum Computing and Encryption Standards',
     url: 'https://www.yang2020.com/policies/quantum-computing/',
-    category: '',
+    category: 'technology',
     keywords: [
       'technology',
       'investments',
@@ -1711,7 +1740,7 @@ export const PolicyData = [
   {
     name: 'Public Council of Advisors',
     url: 'https://www.yang2020.com/policies/public-advisors/',
-    category: '',
+    category: 'Culture',
     keywords: [
       'public council',
       'experts',
@@ -1721,13 +1750,14 @@ export const PolicyData = [
       'consultants',
       'advisors',
       'advice',
-      'guidance'
+      'guidance',
+      'culture'
     ],
   },
   {
     name: 'Reduce Packaging Waste',
     url: 'https://www.yang2020.com/policies/reduce-packaging-waste/',
-    category: '',
+    category: 'Environment',
     keywords: [
       'waste',
       'amazon',
@@ -1746,7 +1776,7 @@ export const PolicyData = [
   {
     name: 'End Partisan Gerrymandering',
     url: 'https://www.yang2020.com/policies/end-gerrymandering/',
-    category: '',
+    category: 'Voting',
     keywords: [
       'elections',
       'voting',
@@ -1762,8 +1792,9 @@ export const PolicyData = [
   {
     name: 'Make Washington, DC, a State',
     url: 'https://www.yang2020.com/policies/dc-statehood/',
-    category: '',
+    category: 'States Rights',
     keywords: [
+      'states rights',
       'statehood',
       'washington dc',
       'capital',
@@ -1774,7 +1805,7 @@ export const PolicyData = [
   {
     name: 'Head of Culture and Ceremony',
     url: 'https://www.yang2020.com/policies/head-of-culture-and-ceremony/',
-    category: '',
+    category: 'Culture',
     keywords: [
       'celebrity',
       'surrogate',
@@ -1786,7 +1817,7 @@ export const PolicyData = [
   {
     name: 'Grid Modernization Race to the Top',
     url: 'https://www.yang2020.com/policies/grid-modernization/',
-    category: '',
+    category: 'Environment',
     keywords: [
       'grid',
       'power plants',
@@ -1802,7 +1833,7 @@ export const PolicyData = [
   {
     name: 'Automatic Voter Registration',
     url: 'https://www.yang2020.com/policies/automatic-voter-registration/',
-    category: '',
+    category: 'Voting',
     keywords: [
       'voting',
       'vote',
@@ -1817,7 +1848,7 @@ export const PolicyData = [
   {
     name: 'Expand Selective Schools',
     url: 'https://www.yang2020.com/policies/expand-selective-schools/',
-    category: '',
+    category: 'Education',
     keywords: [
       'education',
       'schools',
@@ -1851,7 +1882,7 @@ export const PolicyData = [
   {
     name: 'Crypto/Digital Asset Regulation and Consumer Protection',
     url: 'https://www.yang2020.com/policies/digital-asset-regulation/',
-    category: '',
+    category: 'technology',
     keywords: [
       'crypto',
       'cryptocurrency',
@@ -1863,7 +1894,8 @@ export const PolicyData = [
       'finance',
       'digital assets',
       'framework',
-      'Token Taxonomy Act'
+      'Token Taxonomy Act',
+      'technology'
     ],
   },
   {
