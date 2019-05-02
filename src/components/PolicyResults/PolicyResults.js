@@ -71,7 +71,7 @@ class PolicyResults extends React.Component {
           </p>
           <p>
             <strong>How can I contribute?</strong><br/>
-            This project is on <a href="https://github.com/alacritythief/YangSearch/"rel="noopener noreferrer" target="_blank">Github</a>, 
+            This project is on <a href="https://github.com/alacritythief/YangSearch/"rel="noopener noreferrer" target="_blank">GitHub</a>, 
             read the Readme there!
           </p>
         </PolicyResultsContainer>
