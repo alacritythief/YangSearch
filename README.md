@@ -1,10 +1,27 @@
-# YangSearch
+# YangSearch 🇺🇸
 
-A policy and media search engine for Andrew Yang, 2020 Democratic presidential candidate.
+A policy and media search portal for Andrew Yang, 2020 Democratic presidential candidate.
 
-This app requires Node v10.15.3 or higher to run.
+Created by [Andy Wong](https://github.com/alacritythief) with the support of Yang Gang volunteers across the USA.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app requires NodeJS v10.15.3 or higher to run.
+
+## Project Board/Milestones:
+* Project Board: https://github.com/alacritythief/YangSearch/projects/1
+* Milestones: https://github.com/alacritythief/YangSearch/milestones
+
+## Contributing
+* Keywords: [Post an issue](https://github.com/alacritythief/YangSearch/issues) with the `Keywords` label or submit your own PR fix and ask for review.
+* Policies: [Post an issue](https://github.com/alacritythief/YangSearch/issues) with the `Policies` label or submit your own PR fix and ask for review.
+* Videos: Video feature is being added soon.
+
+## Installing/Running this app locally
+
+* Make sure you have NodeJS installed, we suggest using [NVM](https://github.com/nvm-sh/nvm)
+* Clone this repo via git: `git clone https://github.com/alacritythief/YangSearch.git`
+* Enter the repo's folder and `npm install` to install dependencies 
+* `npm start` to run the app in dev mode.
+* Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Available Scripts
 

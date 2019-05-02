@@ -36,10 +36,15 @@ class PolicyResults extends React.Component {
       return (
         <PolicyResultsContainer>
           <p>
-            <strong>Type any keyword in the search bar 
-            (like: education, health, jobs, economy) 
+            <strong>Type any keyword in the search bar  
             above to see Andrew Yang's related policies. 
             Policy links will open in a new tab.</strong>
+          </p>
+          <p>
+            <strong>You can search categories too:</strong> Arts, Capitalism, Culture, Economy, 
+            Education, Environment, Foreign Policy, Government, Health, Immigration, 
+            Legal, Media, Military, Society, Sports, States Rights, Technology, 
+            Univeral Basic Income, Voting, and Workers' Rights.
           </p>
           <p>
             <strong>Who is Andrew Yang?</strong><br/>
@@ -56,6 +61,10 @@ class PolicyResults extends React.Component {
             To be a quick portal to find everything related to Andrew Yang's 2020 campaign: 
             his policies, interviews, rallies, media appearances, and content from his supporters 
             nicknamed the "Yang Gang". For this first version we have searchable policies. 
+          </p>
+          <p>
+            This website is not affiliated with the official Yang2020 campaign, however it is supported 
+            with the help of Yang Gang volunteers across the USA.
           </p>
           <p>
             <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers, and volunteer resources.
