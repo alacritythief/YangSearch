@@ -990,28 +990,30 @@ export const PolicyData = [
   },
   {
     name: 'News and Information Ombudsman',
-    url: '',
+    url: 'https://www.yang2020.com/policies/news-information-ombudsman/',
     category: '',
     keywords: [
       'news',
       'newspapers',
       'ombudsman',
-      'libel'
+      'libel',
+      'media'
     ],
   },
   {
     name: 'American Journalism Fellows',
-    url: '',
+    url: 'https://www.yang2020.com/policies/american-journalism-fellows/',
     category: '',
     keywords: [
       'journalism',
       'news',
-      'newspapers'
+      'newspapers',
+      'media'
     ],
   },
   {
     name: 'Invest in America’s Mental Health',
-    url: '',
+    url: 'https://www.yang2020.com/policies/mental-health/',
     category: '',
     keywords: [
       'mental health',
@@ -1019,12 +1021,13 @@ export const PolicyData = [
       'health care',
       'health',
       'medicine',
-      'medical'
+      'medical',
+      'treatment'
     ],
   },
   {
     name: 'Hold Pharmaceutical Companies Accountable',
-    url: '',
+    url: 'https://www.yang2020.com/policies/holding-pharmaceutical-companies-accountable/',
     category: '',
     keywords: [
       'medicine',
@@ -1034,7 +1037,7 @@ export const PolicyData = [
   },
   {
     name: 'Value-Added Tax',
-    url: '',
+    url: 'Value-Added Tax',
     category: '',
     keywords: [
       'vat',
@@ -1046,20 +1049,23 @@ export const PolicyData = [
       'economy',
       'market',
       'trade',
-      'business'
+      'business',
+      'tax code'
     ],
   },
   {
     name: 'Make Puerto Rico a State',
-    url: '',
+    url: 'https://www.yang2020.com/policies/puerto-rican-statehood/',
     category: '',
     keywords: [
-      'statehood'
+      'statehood',
+      'puerto rico',
+      'natural disasters'
     ],
   },
   {
     name: 'Legalize Marijuana',
-    url: '',
+    url: 'https://www.yang2020.com/policies/legalization-of-marijuana/',
     category: '',
     keywords: [
       '420',
@@ -1067,12 +1073,17 @@ export const PolicyData = [
       'pot',
       'dank',
       'legalization',
-      'legal'
+      'legal',
+      'law',
+      'drugs',
+      'enforcement',
+      'african americans',
+      'black'
     ],
   },
   {
     name: 'Early Childhood Education for All',
-    url: '',
+    url: 'https://www.yang2020.com/policies/early-childhood-education/',
     category: '',
     keywords: [
       'children',
@@ -1089,55 +1100,74 @@ export const PolicyData = [
   },
   {
     name: 'Increase Teacher Salaries',
-    url: '',
+    url: 'https://www.yang2020.com/policies/teacher-salaries/',
     category: '',
     keywords: [
       'teacher',
       'education',
       'schools',
       'student',
-      'universities'
+      'universities',
+      'higher education',
+      'jobs',
+      'economy'
     ],
   },
   {
     name: 'Carbon Fee and Dividend',
-    url: '',
+    url: 'https://www.yang2020.com/policies/carbon-fee-dividend/',
     category: '',
     keywords: [
       'environment',
       'carbon',
+      'carbon fee',
+      'greenhouse gasses',
+      'green new deal',
       'taxes',
       'tax'
     ],
   },
   {
     name: 'Promote Vocational Education',
-    url: '',
+    url: 'https://www.yang2020.com/policies/promoting-vocational-education/',
     category: '',
     keywords: [
       'vocational education',
+      'higher education',
       'education',
       'vocation',
       'schools',
       'jobs',
-      'work'
+      'work',
+      'economy',
+      'trades'
     ],
   },
   {
     name: 'Fight for Equal Pay',
-    url: '',
+    url: 'https://www.yang2020.com/policies/fight-for-equal-pay/',
     category: '',
     keywords: [
       'jobs',
       'work',
       'pay',
       'equality',
-      'fairness'
+      'fairness',
+      'economy',
+      'women\'s rights',
+      'men',
+      'women',
+      'black',
+      'african american',
+      'minority',
+      'minorities',
+      'native americans',
+      'hispanic'
     ],
   },
   {
     name: 'Campaign Finance Reform',
-    url: '',
+    url: 'https://www.yang2020.com/policies/overturning-citizens-united/',
     category: '',
     keywords: [
       'campaign',
@@ -1148,49 +1178,72 @@ export const PolicyData = [
   },
   {
     name: 'Right to Privacy/Abortion and Contraception',
-    url: '',
+    url: 'https://www.yang2020.com/policies/right-privacy-abortion-contraception/',
     category: '',
     keywords: [
       'abortion',
       'birth control',
-      'contraception'
+      'contraception',
+      'health',
+      'reproductive rights',
+      'healthcare',
+      'medicine',
+      'medical',
+      'planned parenthood'
     ],
   },
   {
     name: 'Support the DREAM Act',
-    url: '',
+    url: 'https://www.yang2020.com/policies/support-the-dream-act/',
     category: '',
     keywords: [
       'dreamers',
-      'immigration'
+      'immigration',
+      'illegal immigration',
+      'citizenship',
+      'citizen',
+      'pathyway to citizenship',
+      'dream act',
+      'reform'
     ],
   },
   {
     name: 'Southern Border Security',
-    url: '',
+    url: 'https://www.yang2020.com/policies/southern-border-security/',
     category: '',
     keywords: [
       'immigration',
       'immigrant',
       'border security',
       'border',
-      'security'
+      'security',
+      'illegal immigration',
+      'illegals',
+      'wall',
+      'fencing',
+      'drones',
+      'alien',
+      'illegal alien'
     ],
   },
   {
     name: 'Pathway to Citizenship for Undocumented Immigrants',
-    url: '',
+    url: 'https://www.yang2020.com/policies/pathway-to-citizenship-2/',
     category: '',
     keywords: [
       'immigration',
       'immigrant',
       'citizenship',
-      'undocumented'
+      'undocumented',
+      'illegals',
+      'illegal immigrant',
+      'alien',
+      'illegal alien'
     ],
   },
   {
     name: 'Control the Cost of Higher Education',
-    url: '',
+    url: 'https://www.yang2020.com/policies/controlling-cost-higher-education/',
     category: '',
     keywords: [
       'education',
@@ -1199,21 +1252,35 @@ export const PolicyData = [
       'community college',
       'higher education',
       'student debt',
-      'loans'
+      'loans',
+      'cost',
+      'administrative costs'
     ],
   },
   {
     name: 'Support for the Arts',
-    url: '',
+    url: 'https://www.yang2020.com/policies/support-for-the-arts/',
     category: '',
     keywords: [
       'creativity',
-      'art'
+      'art',
+      'music',
+      'film',
+      'media',
+      'writing',
+      'photography',
+      'copyright laws',
+      'education',
+      'schools',
+      'royalties',
+      'musicians',
+      'licensing',
+      'Music Modernization Act'
     ],
   },
   {
     name: 'Paid Family Leave',
-    url: '',
+    url: 'https://www.yang2020.com/policies/paid-family-leave/',
     category: '',
     keywords: [
       'paid leave',
@@ -1237,27 +1304,48 @@ export const PolicyData = [
   },
   {
     name: 'Gun Safety',
-    url: '',
+    url: 'https://www.yang2020.com/policies/gun-safety/',
     category: '',
     keywords: [
-      'gun',
+      'guns',
       '2nd amendment',
       'second amendment',
-      '2A'
+      '2A',
+      'handguns',
+      'rifles',
+      'shotguns',
+      'licensing',
+      'license',
+      'safety',
+      'buyback'
     ],
   },
   {
     name: 'Foreign Policy First Principles',
-    url: '',
+    url: 'https://www.yang2020.com/policies/foreign-policy-first-principles/',
     category: '',
     keywords: [
       'foreign policy',
-      'foreign'
+      'foreign',
+      'conflict',
+      'war',
+      'foreign conflict',
+      'foreign relations',
+      'UN',
+      'international relations',
+      'foreign issues',
+      'NATO',
+      'AUMF',
+      'congress',
+      'DoD',
+      'Department of Defense',
+      'audit',
+      'abroad'
     ],
   },
   {
     name: 'LGBTQ Rights',
-    url: '',
+    url: 'https://www.yang2020.com/policies/lgbtq-rights/',
     category: '',
     keywords: [
       'LGBTQ',
@@ -1268,12 +1356,14 @@ export const PolicyData = [
       'queer',
       'LGBT',
       'LGBT rights',
-      'gender rights'
+      'gender rights',
+      'equal rights',
+      'equality'
     ],
   },
   {
     name: 'Opioid Crisis',
-    url: '',
+    url: 'https://www.yang2020.com/policies/opioid-crisis/',
     category: '',
     keywords: [
       'treatment',
@@ -1293,17 +1383,24 @@ export const PolicyData = [
   },
   {
     name: 'Reduce Mass Incarceration',
-    url: '',
+    url: 'https://www.yang2020.com/policies/reduce-mass-incarceration/',
     category: '',
     keywords: [
       'crime',
       'criminal justice',
-      'incarceration'
+      'incarceration',
+      'african american',
+      'black',
+      'federal prisions',
+      'private prisons',
+      'prison',
+      'minorities',
+      'treatment'
     ],
   },
   {
     name: 'Combat Climate Change',
-    url: '',
+    url: 'https://www.yang2020.com/policies/climate-change/',
     category: '',
     keywords: [
       'climate',
@@ -1311,55 +1408,91 @@ export const PolicyData = [
       'green new deal',
       'alternative energy',
       'clean',
-      'environment'
+      'environment',
+      'fossil fuels',
+      'solar',
+      'wind',
+      'engergy',
+      'power plants',
+      'greenhouse gasses',
+      'global warming',
+      'electric bills',
+      'EPA',
+      'environmental protection agency'
     ],
   },
   {
     name: 'Decriminalize Opioids',
-    url: '',
+    url: 'https://www.yang2020.com/policies/decriminalizeopioids/',
     category: '',
     keywords: [
+      'crime',
+      'decriminalization',
+      'treatment',
+      'health',
+      'healthcare',
+      'medicine',
+      'drugs',
+      'medical',
+      'pills',
+      'doctors',
+      'fentanyl',
+      'heroin',
+      'oxycontin',
+      'percocet'
     ],
   },
   {
     name: 'Ranked Choice Voting',
-    url: '',
+    url: 'https://www.yang2020.com/policies/rankedchoice/',
     category: '',
     keywords: [
       'government',
       'voting',
       'vote',
       'elections',
-      'fairness'
+      'fairness',
+      'ranked choice',
+      'third party'
     ],
   },
   {
     name: 'Democracy Dollars',
-    url: '',
+    url: 'https://www.yang2020.com/policies/democracydollars/',
     category: '',
     keywords: [
       'campaign finance',
       'government',
       'elections',
-      'fairness'
+      'fairness',
+      'reform'
     ],
   },
   {
     name: 'Relocate Federal Agencies',
-    url: '',
+    url: 'https://www.yang2020.com/policies/relocatefederalagencies/',
     category: '',
     keywords: [
-      'government'
+      'government',
+      'federal agencies',
+      'economy',
+      'jobs',
+      'decentralize',
+      'investment'
     ],
   },
   {
     name: 'Extend Daylight Saving Time All Year',
-    url: '',
+    url: 'https://www.yang2020.com/policies/extend-daylight-savings-time-all-year/',
     category: '',
     keywords: [
       'daylight savings',
       'time',
-      'timezones'
+      'timezones',
+      'eastern',
+      'central',
+      'mountain',
+      'pacific'
     ],
   },
   {
