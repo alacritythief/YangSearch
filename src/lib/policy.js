@@ -837,7 +837,6 @@ export const PolicyData = [
       'presidential salary',
       'cabinet members',
       'heads of regulatory agencies',
-      'salary',
       'salaries',
       'Bill Clinton',
       'George Bush'
@@ -1103,7 +1102,9 @@ export const PolicyData = [
     url: 'https://www.yang2020.com/policies/teacher-salaries/',
     category: '',
     keywords: [
-      'teacher',
+      'teachers',
+      'mentors',
+      'salary',
       'education',
       'schools',
       'student',
