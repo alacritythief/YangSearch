@@ -12,6 +12,7 @@ export const policySearch = (keyword) => {
     minMatchCharLength: 5,
     keys: [
       "name",
+      "category",
       "keywords"
     ]
   };

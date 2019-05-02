@@ -50,7 +50,6 @@ export const PolicyData = [
       'mental health',
       'infrastructure',
       'marriage rates and success',
-      'environmental quality',
       'incarceration',
       'journalism',
       'dynamism',
@@ -60,8 +59,7 @@ export const PolicyData = [
       'cybersecurity',
       'economic competitiveness',
       'jobs',
-      'work',
-      'economy'
+      'work'
     ]
   },
   {
@@ -127,7 +125,6 @@ export const PolicyData = [
       'holiday',
       'federal holiday',
       'federal',
-      'government',
       'irs',
       'revenue',
       'revenue day',
@@ -186,8 +183,7 @@ export const PolicyData = [
       'tutor',
       'coaching',
       'town fair',
-      'social cohesion',
-      'human capitalism'
+      'social cohesion'
     ],
   },
   {
@@ -199,11 +195,9 @@ export const PolicyData = [
       'vote',
       'fairness',
       'security',
-      'government',
       'polling',
       'blockchain',
       'effective government',
-      'technology',
       'democracy',
       'elections'
     ],
@@ -344,7 +338,6 @@ export const PolicyData = [
       'e-file',
       'tax prep',
       'IRS',
-      'government',
       'automation',
       'treasury',
       'economy'
@@ -382,7 +375,6 @@ export const PolicyData = [
       'truck driving',
       'trucker',
       'automation',
-      'economy',
       'jobs',
       'work',
       'trucking czar',
@@ -410,7 +402,6 @@ export const PolicyData = [
       'mandatory leave',
       'jobs',
       'work',
-      'economy',
       'productivity',
       'workers',
       'workers\' rights'
@@ -448,9 +439,6 @@ export const PolicyData = [
       'modern',
       'modernization',
       'soldiers',
-      'heath',
-      'healthcare',
-      'health care',
       'veterans',
       'mental health',
       'cyberterrorism',
@@ -472,7 +460,6 @@ export const PolicyData = [
       'interviews',
       'cooking',
       'food',
-      'health',
       'mental health',
       'time management',
       'physical fitness'
@@ -494,7 +481,6 @@ export const PolicyData = [
       'community',
       'jobs',
       'work',
-      'economy',
       'loans'
     ],
   },
@@ -512,7 +498,6 @@ export const PolicyData = [
       'investing',
       'school',
       'high school',
-      'education',
       'IRS',
       'online course',
       'AI',
@@ -580,8 +565,7 @@ export const PolicyData = [
       'healthcare',
       'preventative',
       'maintenance',
-      'patients',
-      'technology'
+      'patients'
     ],
   },
   {
@@ -602,7 +586,6 @@ export const PolicyData = [
       'student debt',
       'burden',
       'borrowers',
-      'economy',
       'forgiveness',
       'bankruptcy',
       'bankruptcy laws',
@@ -637,8 +620,6 @@ export const PolicyData = [
       'solar-cell roadways',
       'electric',
       'electricity',
-      'technologies',
-      'technology',
       'rebuild america',
       'challenge grant',
       'jobs',
@@ -723,7 +704,6 @@ export const PolicyData = [
       'scorecard',
       'america',
       'data',
-      'health',
       'Quality of life',
       'health-adjusted life expectancy',
       'happiness',
@@ -771,7 +751,6 @@ export const PolicyData = [
     url: 'https://www.yang2020.com/policies/prosperity-grants/',
     category: 'Economy',
     keywords: [
-      'government',
       'non-profit',
       'donations',
       'donate',
@@ -833,7 +812,6 @@ export const PolicyData = [
       'healthcare',
       'health care',
       'health',
-      'government',
       'white house',
       'president',
       'vice president',
@@ -884,7 +862,6 @@ export const PolicyData = [
       'high school',
       'seniors',
       'school',
-      'education',
       'local'
     ],
   },
@@ -921,7 +898,6 @@ export const PolicyData = [
       'media',
       'library',
       'libraries',
-      'government',
       'FCC'
     ],
   },
@@ -971,14 +947,12 @@ export const PolicyData = [
       'college',
       'university',
       'higher education',
-      'education',
       'student',
       'sports',
       'basketball',
       'football',
       'college athletes',
-      'jobs',
-      'economy'
+      'jobs'
     ],
   },
   {
@@ -999,7 +973,6 @@ export const PolicyData = [
       'non-lethal',
       'weapons',
       'demilitarize',
-      'technology',
       'handprint guns'
     ],
   },
@@ -1204,8 +1177,7 @@ export const PolicyData = [
       'student',
       'universities',
       'higher education',
-      'jobs',
-      'economy'
+      'jobs'
     ],
   },
   {
@@ -1240,7 +1212,6 @@ export const PolicyData = [
       'schools',
       'jobs',
       'work',
-      'economy',
       'trades',
       'plumber',
       'technician',
@@ -1257,7 +1228,6 @@ export const PolicyData = [
       'pay',
       'equality',
       'fairness',
-      'economy',
       'women\'s rights',
       'workers\' rights',
       'rights',
@@ -1294,7 +1264,6 @@ export const PolicyData = [
       'abortion',
       'birth control',
       'contraception',
-      'health',
       'reproductive rights',
       'healthcare',
       'medicine',
@@ -1378,11 +1347,9 @@ export const PolicyData = [
       'arts',
       'music',
       'film',
-      'media',
       'writing',
       'photography',
       'copyright laws',
-      'education',
       'schools',
       'royalties',
       'musicians',
@@ -1410,7 +1377,6 @@ export const PolicyData = [
       'mandatory leave',
       'jobs',
       'work',
-      'economy',
       'productivity',
       'workers',
       'workers\' rights'
@@ -1566,8 +1532,6 @@ export const PolicyData = [
       'crime',
       'decriminalization',
       'treatment',
-      'health',
-      'healthcare',
       'medicine',
       'drugs',
       'medical',
@@ -1584,7 +1548,6 @@ export const PolicyData = [
     url: 'https://www.yang2020.com/policies/rankedchoice/',
     category: 'Voting',
     keywords: [
-      'government',
       'voting',
       'vote',
       'voters',
@@ -1600,7 +1563,6 @@ export const PolicyData = [
     category: 'Voting',
     keywords: [
       'campaign finance',
-      'government',
       'elections',
       'fairness',
       'reform',
@@ -1616,7 +1578,6 @@ export const PolicyData = [
     keywords: [
       'government',
       'federal agencies',
-      'economy',
       'jobs',
       'decentralize',
       'investments'
@@ -1646,7 +1607,6 @@ export const PolicyData = [
       'legal',
       'justice',
       'cost reduction',
-      'government',
       'laws',
       'crime',
       'cash bail',
@@ -1665,7 +1625,6 @@ export const PolicyData = [
       'voting',
       'voting age',
       'vote',
-      'government',
       'elections',
       'civil engagement',
       'civic duty',
@@ -1678,7 +1637,6 @@ export const PolicyData = [
     category: 'Technology',
     keywords: [
       'technology',
-      'government',
       'advisers',
       'congress',
       'facebook',
@@ -1729,8 +1687,7 @@ export const PolicyData = [
       'voting',
       'vote',
       'civic engagement',
-      'voters',
-      'government'
+      'voters'
     ],
   },
   {
@@ -1744,7 +1701,6 @@ export const PolicyData = [
       'finance',
       'economy',
       'cost',
-      'government',
       'waste'
     ],
   },
@@ -1761,8 +1717,7 @@ export const PolicyData = [
       'encryption',
       'NIST',
       'DoD',
-      'department of defense',
-      'government'
+      'department of defense'
     ],
   },
   {
@@ -1796,7 +1751,6 @@ export const PolicyData = [
       'cost',
       'environmentalism',
       'economics',
-      'economy',
       'EPA',
       'environmental protection agency'
     ],
@@ -1813,7 +1767,6 @@ export const PolicyData = [
       'fairness',
       'gerrymandering',
       'redistricting',
-      'government',
       'democracy'
     ],
   },
@@ -1866,7 +1819,6 @@ export const PolicyData = [
       'voting',
       'vote',
       'elections',
-      'government',
       'voters rights',
       'automatic',
       'voter',
@@ -1900,7 +1852,6 @@ export const PolicyData = [
       'elections',
       'voting',
       'vote',
-      'government',
       'voters',
       'proportionally',
       'constitutional amendments',
@@ -1918,7 +1869,6 @@ export const PolicyData = [
       'etherium',
       'dogecoin',
       'regulation',
-      'economy',
       'finance',
       'digital assets',
       'framework',
@@ -1935,7 +1885,6 @@ export const PolicyData = [
       'voting rights',
       'vote',
       'elections',
-      'government',
       'civic engagement',
       'incarceration',
       'probation',
