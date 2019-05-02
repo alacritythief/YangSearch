@@ -10,10 +10,10 @@ export const PolicyData = [
       'money',
       'one thousand dollars',
       'universal basic income',
-      'thomas paine',
-      'martin luther king',
-      'richard nixon',
-      'milton friedman'
+      'Thomas Paine',
+      'Martin Luther King',
+      'Richard Nixon',
+      'Milton Friedman'
     ]
   },
   {
@@ -247,7 +247,7 @@ export const PolicyData = [
       'housing cost',
       'rent',
       'buy',
-      'law'
+      'laws'
     ],
   },
   {
@@ -299,7 +299,8 @@ export const PolicyData = [
       'court',
       'crime',
       'judge',
-      'appeal'
+      'appeal',
+      'laws'
     ],
   },
   {
@@ -884,6 +885,7 @@ export const PolicyData = [
     category: '',
     keywords: [
       'journalism',
+      'journalists',
       'newspapers',
       'news',
       'writing',
@@ -958,7 +960,7 @@ export const PolicyData = [
     category: '',
     keywords: [
       'crime',
-      'law',
+      'laws',
       'police',
       'cop',
       'camera',
@@ -997,7 +999,9 @@ export const PolicyData = [
       'newspapers',
       'ombudsman',
       'libel',
-      'media'
+      'media',
+      'journalism',
+      'journalists'
     ],
   },
   {
@@ -1006,9 +1010,17 @@ export const PolicyData = [
     category: '',
     keywords: [
       'journalism',
+      'journalists',
       'news',
       'newspapers',
-      'media'
+      'media',
+      'fellowship',
+      'news organizations',
+      'local',
+      'local news',
+      'local journalism',
+      'investments',
+      'grants'
     ],
   },
   {
@@ -1022,7 +1034,13 @@ export const PolicyData = [
       'health',
       'medicine',
       'medical',
-      'treatment'
+      'treatment',
+      'social workers',
+      'psychologists',
+      'psychiatrists',
+      'depression',
+      'investments',
+      'AI'
     ],
   },
   {
@@ -1032,17 +1050,38 @@ export const PolicyData = [
     keywords: [
       'medicine',
       'medical',
-      'crime'
+      'crime',
+      'big pharma',
+      'pharma',
+      'monopoly',
+      'monopolies',
+      'Purdue Pharma',
+      'OxyContin',
+      'opioids',
+      'Fentanyl',
+      'pharmaceutical companies',
+      'drugs',
+      'FDA',
+      'DOJ',
+      'Food and Drug Administration',
+      'Department of Justice',
+      'medicare for all',
+      'medicare-for-all',
+      'medicare',
+      'health',
+      'healthcare',
+      'health care'
     ],
   },
   {
     name: 'Value-Added Tax',
-    url: 'Value-Added Tax',
+    url: 'https://www.yang2020.com/policies/value-added-tax/',
     category: '',
     keywords: [
       'vat',
       'value added tax',
       'taxes',
+      'new taxes',
       'amazon',
       'facebook',
       'google',
@@ -1050,7 +1089,14 @@ export const PolicyData = [
       'market',
       'trade',
       'business',
-      'tax code'
+      'tax code',
+      'ubi',
+      'freedom dividend',
+      '$1000',
+      'money',
+      'one thousand dollars',
+      'universal basic income',
+      '10%'
     ],
   },
   {
@@ -1060,7 +1106,10 @@ export const PolicyData = [
     keywords: [
       'statehood',
       'puerto rico',
-      'natural disasters'
+      'natural disasters',
+      'citizens',
+      'americans',
+      'puerto ricans'
     ],
   },
   {
@@ -1074,11 +1123,17 @@ export const PolicyData = [
       'dank',
       'legalization',
       'legal',
-      'law',
+      'laws',
       'drugs',
       'enforcement',
       'african americans',
-      'black'
+      'black',
+      'incarceration',
+      'forgiveness',
+      'pardon',
+      '4/20',
+      'criminal justice',
+      'reform'
     ],
   },
   {
@@ -1095,7 +1150,11 @@ export const PolicyData = [
       'childhood',
       'child',
       'family',
-      'families'
+      'families',
+      'Department of Education',
+      'DoE',
+      'pre-k',
+      'pre-kindergarten'
     ],
   },
   {
@@ -1122,11 +1181,17 @@ export const PolicyData = [
     keywords: [
       'environment',
       'carbon',
-      'carbon fee',
+      'carbon fees',
       'greenhouse gasses',
       'green new deal',
       'taxes',
-      'tax'
+      'tax',
+      'fossil fuels',
+      'fossil fuel company',
+      'fossil fuel companies',
+      'coal',
+      'oil',
+      'fracking'
     ],
   },
   {
@@ -1142,7 +1207,10 @@ export const PolicyData = [
       'jobs',
       'work',
       'economy',
-      'trades'
+      'trades',
+      'plumber',
+      'technician',
+      'repairman'
     ],
   },
   {
@@ -1191,7 +1259,8 @@ export const PolicyData = [
       'healthcare',
       'medicine',
       'medical',
-      'planned parenthood'
+      'planned parenthood',
+      'women\'s rights'
     ],
   },
   {
@@ -1369,8 +1438,6 @@ export const PolicyData = [
     category: '',
     keywords: [
       'treatment',
-      'health',
-      'healthcare',
       'medicine',
       'crime',
       'drugs',
@@ -1380,7 +1447,27 @@ export const PolicyData = [
       'fentanyl',
       'heroin',
       'oxycontin',
-      'percocet'
+      'percocet',
+      'big pharma',
+      'pharma',
+      'monopoly',
+      'monopolies',
+      'Purdue Pharma',
+      'OxyContin',
+      'opioids',
+      'Fentanyl',
+      'pharmaceutical companies',
+      'drugs',
+      'FDA',
+      'DOJ',
+      'Food and Drug Administration',
+      'Department of Justice',
+      'medicare for all',
+      'medicare-for-all',
+      'medicare',
+      'health',
+      'healthcare',
+      'health care'
     ],
   },
   {
@@ -1504,7 +1591,7 @@ export const PolicyData = [
     keywords: [
       'cost reduction',
       'government',
-      'law',
+      'laws',
       'crime',
       'cash bail',
       'bail',
@@ -1555,7 +1642,7 @@ export const PolicyData = [
       'supreme court',
       'justices',
       'crime',
-      'law',
+      'laws',
       'term limits',
       'eighteen years',
       '18'
@@ -1863,7 +1950,7 @@ export const PolicyData = [
       'data collection',
       'download',
       'congress',
-      'law',
+      'laws',
       'legislation'
     ],
   },
@@ -1872,20 +1959,57 @@ export const PolicyData = [
     url: 'https://www.yang2020.com/policies/payment-small-businesses/',
     category: '',
     keywords: [
+      'business',
+      'corporations',
+      'small business',
+      'payments',
+      'economy',
+      'congress',
+      'startup',
+      'stalling tactics',
+      'contracts',
+      'market',
+      'free market',
+      'jobs'
     ],
   },
   {
     name: 'Preservation of Public Lands and Water',
-    url: '',
+    url: 'https://www.yang2020.com/policies/public-land-preservation/',
     category: '',
     keywords: [
+      'environment',
+      'conservation',
+      'preservation',
+      'lands',
+      'water',
+      'public',
+      'public lands',
+      'public water',
+      'ecosystem',
+      'green new deal',
+      'Every Kid in a Park initiative',
+      'Secretary of the Interior',
+      'natural monuments'
     ],
   },
   {
     name: 'End Bidding Wars for Corporate Relocation',
-    url: '',
+    url: 'https://www.yang2020.com/policies/end-relocation-bidding/',
     category: '',
     keywords: [
+      'economy',
+      'bidding wars',
+      'corporations',
+      'businesses',
+      'relocation',
+      'corporate',
+      'companies',
+      'company',
+      'tax breaks',
+      'taxes',
+      'corporate welfare',
+      'bidding'
     ],
   }
 ]
