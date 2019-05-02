@@ -1960,6 +1960,7 @@ export const PolicyData = [
     category: '',
     keywords: [
       'business',
+      'businesses',
       'corporations',
       'small business',
       'payments',
