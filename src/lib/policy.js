@@ -785,113 +785,196 @@ export const PolicyData = [
       'families',
       'parent',
       'children',
-      'child'
+      'child',
+      'single parents',
+      'happy',
+      'happiness',
+      'relationships',
+      'divorce',
+      'counseling',
+      'family counseling',
+      'ACA',
+      'affordable care act',
+      'tax code'
     ],
   },
   {
     name: 'Closely Monitor Mental Health of White House Staff',
-    url: '',
+    url: 'https://www.yang2020.com/policies/white-house-psychologist/',
     category: '',
     keywords: [
       'mental health',
       'healthcare',
       'health care',
       'health',
-      'government'
+      'government',
+      'white house',
+      'president',
+      'vice president',
+      'chief of staff',
+      'psychiatrists',
+      'psychologists',
+      'stress',
+      'senior government official',
+      'emotional',
+      'emotions',
+      'executive branch',
+      'destigmatize mental health issues',
+      'white house psychologist corps'
     ],
   },
   {
     name: 'Prevent Corruption among Federal Regulators',
-    url: '',
+    url: 'https://www.yang2020.com/policies/pay-president-regulators/',
     category: '',
     keywords: [
       'corruption',
       'crime',
       'regulation',
-      'government'
+      'government',
+      'speaking fees',
+      'salary',
+      'presidential salary',
+      'cabinet members',
+      'heads of regulatory agencies',
+      'salary',
+      'salaries',
+      'Bill Clinton',
+      'George Bush'
     ],
   },
   {
     name: 'American Exchange Program',
-    url: '',
+    url: 'https://www.yang2020.com/policies/american-exchange-program/',
     category: '',
     keywords: [
-      'exchange'
+      'exchange',
+      'americans',
+      'urban',
+      'rural',
+      'divide',
+      'empathy',
+      'community',
+      'high school',
+      'seniors',
+      'school',
+      'education',
+      'local'
     ],
   },
   {
     name: 'Provide Basic Banking Services through the Post Office',
-    url: '',
+    url: 'https://www.yang2020.com/policies/post-offices-provide-basic-banking-services/',
     category: '',
     keywords: [
       'finance',
       'post office',
       'banking',
       'bank',
-      'savings'
+      'savings',
+      'basic banking services',
+      'basic services',
+      'loans',
+      'lending'
     ],
   },
   {
     name: 'Local Journalism Fund',
-    url: '',
+    url: 'https://www.yang2020.com/policies/local-journalism-fund/',
     category: '',
     keywords: [
       'journalism',
       'newspapers',
       'news',
-      'writing'
+      'writing',
+      'local',
+      'investment',
+      'fact-checking',
+      'media',
+      'library',
+      'libraries',
+      'government',
+      'FCC'
     ],
   },
   {
     name: 'Limit Bureaucracy in the Federal Workforce',
-    url: '',
+    url: 'https://www.yang2020.com/policies/downsizing-federal-workforce/',
     category: '',
     keywords: [
       'government',
       'federal',
-      'bureaucracy'
+      'bureaucracy',
+      'federal workers',
+      'jobs',
+      'millenials',
+      'inefficiency',
+      'inefficiencies',
+      'efficiency',
+      'congress',
+      'hiring'
     ],
   },
   {
     name: 'Nuclear Launch Decisions',
-    url: '',
+    url: 'https://www.yang2020.com/policies/nuclear-launch/',
     category: '',
     keywords: [
       'nuclear missles',
       'nukes',
       'war',
-      'conflict'
+      'conflict',
+      'nuclear attack',
+      'attack',
+      'security',
+      'president',
+      'vice president',
+      'chief of staff'
     ],
   },
   {
     name: 'NCAA Should Pay Athletes',
-    url: '',
+    url: 'https://www.yang2020.com/policies/ncaa-pay-athletes/',
     category: '',
     keywords: [
-      'ncaa',
+      'NCAA',
       'athletes',
       'college',
       'university',
       'higher education',
       'education',
-      'student'
+      'student',
+      'sports',
+      'basketball',
+      'football',
+      'college athletes',
+      'jobs',
+      'economy'
     ],
   },
   {
     name: 'Every Cop Gets a Camera',
-    url: '',
+    url: 'https://www.yang2020.com/policies/every-cop-gets-camera/',
     category: '',
     keywords: [
       'crime',
       'law',
       'police',
       'cop',
-      'camera'
+      'camera',
+      'body camera',
+      'transparency',
+      'legal',
+      'non-lethal',
+      'weapons',
+      'demilitarise',
+      'technology',
+      'handprint guns'
     ],
   },
   {
     name: 'Reduce Harm to Children Caused by Smartphones',
-    url: '',
+    url: 'https://www.yang2020.com/policies/effects-smartphones-human-development/',
     category: '',
     keywords: [
       'smartphones',
@@ -901,7 +984,8 @@ export const PolicyData = [
       'parent',
       'family',
       'families',
-      'community'
+      'community',
+      'dark patterns'
     ],
   },
   {
