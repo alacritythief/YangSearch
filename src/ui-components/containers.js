@@ -59,11 +59,21 @@ export const Logo = styled.div`
     max-width: 290px;
     max-height: 59px;
   }
+
+  @media only screen and (max-width: ${d.TINY}){
+    max-width: 250px;
+    max-height: 51px;
+  }
 `
 
 export const MathHatContainer = styled.img`
   display: inline-block;
   vertical-align: top;
-  height: 60px;
-  width: 60px;
+  height: 59px;
+  width: 59px;
+
+  @media only screen and (max-width: ${d.TINY}){
+    max-width: 49px;
+    max-height: 49px;
+  }
 `
