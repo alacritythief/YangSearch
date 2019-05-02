@@ -44,7 +44,7 @@ class PolicyResults extends React.Component {
             <strong>You can search categories too:</strong> Arts, Capitalism, Culture, Economy, 
             Education, Environment, Foreign Policy, Government, Health, Immigration, 
             Legal, Media, Military, Society, Sports, States Rights, Technology, 
-            Univeral Basic Income, Voting, and Worker's Rights.
+            Univeral Basic Income, Voting, and Workers' Rights.
           </p>
           <p>
             <strong>Who is Andrew Yang?</strong><br/>
