@@ -1497,15 +1497,23 @@ export const PolicyData = [
   },
   {
     name: 'Decrease Pre-Trial Cash Bail',
-    url: '',
+    url: 'https://www.yang2020.com/policies/cashbail/',
     category: '',
     keywords: [
+      'cost reduction',
+      'government',
+      'law',
+      'crime',
+      'cash bail',
+      'bail',
+      'incarcerate',
+      'incarceration'
     ],
   },
   {
     name: 'Lower the Voting Age to 16',
     url: '',
-    category: '',
+    category: 'https://www.yang2020.com/policies/votingage/',
     keywords: [
       'sixteen',
       '16',
@@ -1513,113 +1521,208 @@ export const PolicyData = [
       'voting age',
       'vote',
       'government',
-      'elections'
+      'elections',
+      'civil engagement',
+      'civic duty',
+      'voter turnout'
     ],
   },
   {
     name: 'Revive the Office of Technology Assessment',
-    url: '',
+    url: 'https://www.yang2020.com/policies/reviveota/',
     category: '',
     keywords: [
+      'technology',
+      'government',
+      'advisers',
+      'congress',
+      'facebook',
+      'google',
+      'twitter',
+      'apple',
+      'office of technology assessment',
+      'OTA'
     ],
   },
   {
     name: '18 Year Term Limit for Supreme Court Justices',
-    url: '',
+    url: 'https://www.yang2020.com/policies/scotustermlimits/',
     category: '',
     keywords: [
       'court',
       'supreme court',
-      'justice'
+      'justices',
+      'crime',
+      'law',
+      'term limits',
+      'eighteen years',
+      '18'
     ],
   },
   {
     name: 'Empowering MMA Fighters',
-    url: '',
+    url: 'https://www.yang2020.com/policies/empowering-mma-fighters/',
     category: '',
     keywords: [
+      'MMA',
+      'mixed martial arts',
+      'sports',
+      'ali act',
+      'unions',
+      'national labor relations board',
+      'jobs'
     ],
   },
   {
     name: 'Make Election Day a Holiday',
-    url: '',
+    url: 'https://www.yang2020.com/policies/election-day-holiday/',
     category: '',
     keywords: [
       'holiday',
       'elections',
       'voting',
-      'vote'
+      'vote',
+      'civic engagement',
+      'voters',
+      'government'
     ],
   },
   {
     name: 'The Penny Makes No Cents',
-    url: '',
+    url: 'https://www.yang2020.com/policies/no-pennies/',
     category: '',
     keywords: [
       'penny',
       'change',
-      'cents'
+      'cents',
+      'finance',
+      'economy',
+      'cost',
+      'government',
+      'waste'
     ],
   },
   {
     name: 'Quantum Computing and Encryption Standards',
-    url: '',
+    url: 'https://www.yang2020.com/policies/quantum-computing/',
     category: '',
     keywords: [
+      'technology',
+      'investment',
+      'modernization',
+      'quantum',
+      'computers',
+      'encryption',
+      'NIST',
+      'DoD',
+      'department of defense',
+      'government'
+    ],
+  },
+  {
+    name: 'Public Council of Advisors',
+    url: 'https://www.yang2020.com/policies/public-advisors/',
+    category: '',
+    keywords: [
+      'public council',
+      'experts',
+      'artists',
+      'leaders',
+      'public opinion',
+      'consultants',
+      'advisors',
+      'advice',
+      'guidance'
     ],
   },
   {
     name: 'Reduce Packaging Waste',
-    url: '',
+    url: 'https://www.yang2020.com/policies/reduce-packaging-waste/',
     category: '',
     keywords: [
       'waste',
       'amazon',
-      'packaging'
+      'packaging',
+      'cardboard',
+      'environment',
+      'green new deal',
+      'cost',
+      'environmentalism',
+      'economics',
+      'economy',
+      'EPA',
+      'environmental protection agency'
     ],
   },
   {
     name: 'End Partisan Gerrymandering',
-    url: '',
+    url: 'https://www.yang2020.com/policies/end-gerrymandering/',
     category: '',
     keywords: [
       'elections',
       'voting',
       'voter rights',
       'vote',
-      'fairness'
+      'fairness',
+      'gerymandering',
+      'redistrcting',
+      'government',
+      'democracy'
     ],
   },
   {
     name: 'Make Washington, DC, a State',
-    url: '',
+    url: 'https://www.yang2020.com/policies/dc-statehood/',
     category: '',
     keywords: [
-      'statehood'
+      'statehood',
+      'washington dc',
+      'capital',
+      'taxation',
+      'representation'
     ],
   },
   {
     name: 'Head of Culture and Ceremony',
-    url: '',
+    url: 'https://www.yang2020.com/policies/head-of-culture-and-ceremony/',
     category: '',
     keywords: [
+      'celebrity',
+      'surrogate',
+      'culture',
+      'ceremony',
+      'celebrations'
     ],
   },
   {
     name: 'Grid Modernization Race to the Top',
-    url: '',
+    url: 'https://www.yang2020.com/policies/grid-modernization/',
     category: '',
     keywords: [
+      'grid',
+      'power plants',
+      'electricity',
+      'modernization',
+      'infrastructure',
+      'energy',
+      'energy savings',
+      'environmentalism',
+      'environment'
     ],
   },
   {
     name: 'Automatic Voter Registration',
-    url: '',
+    url: 'https://www.yang2020.com/policies/automatic-voter-registration/',
     category: '',
     keywords: [
       'voting',
       'vote',
-      'elections'
+      'elections',
+      'government',
+      'voters rights',
+      'automatic',
+      'voter',
+      'registration'
     ],
   },
   {
