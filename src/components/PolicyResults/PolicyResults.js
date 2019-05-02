@@ -69,6 +69,11 @@ class PolicyResults extends React.Component {
           <p>
             <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers, and volunteer resources.
           </p>
+          <p>
+            <strong>How can I contribute?</strong><br/>
+            This project is on <a href="https://github.com/alacritythief/YangSearch/"rel="noopener noreferrer" target="_blank">Github</a>, 
+            read the Readme there!
+          </p>
         </PolicyResultsContainer>
       )
     } else {
