@@ -1,7 +1,7 @@
 {
   "name": "yangsearch",
   "version": "0.1.0",
-  "homepage": "https://yangsearch.com",
+  "homepage": "http://www.yangsearch.com",
   "private": true,
   "dependencies": {
     "fuse.js": "^3.4.4",
