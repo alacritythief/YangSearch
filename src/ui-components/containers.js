@@ -54,6 +54,11 @@ export const Logo = styled.div`
   display: inline-block;
   max-width: 300px;
   max-height: 61px;
+
+  @media only screen and (max-width: ${d.MOBILE}){
+    max-width: 290px;
+    max-height: 59px;
+  }
 `
 
 export const MathHatContainer = styled.img`
