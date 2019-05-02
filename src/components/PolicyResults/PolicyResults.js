@@ -58,6 +58,10 @@ class PolicyResults extends React.Component {
             nicknamed the "Yang Gang". For this first version we have searchable policies. 
           </p>
           <p>
+            This website is not affiliated with the official Yang2020 campaign, however it is supported 
+            with the help of Yang Gang volunteers across the USA.
+          </p>
+          <p>
             <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers, and volunteer resources.
           </p>
         </PolicyResultsContainer>
