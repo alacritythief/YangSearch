@@ -9,6 +9,8 @@ export const ResetSearchButton = styled.button`
   color: ${c.WHITE};
   background-color: ${c.RED};
   font-size: 18px;
+  font-family: montserrat, sans-serif;
+  font-weight: 300;
   padding: 0.5rem;
   outline: none;
 

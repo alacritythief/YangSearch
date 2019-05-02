@@ -10,7 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     background-image: linear-gradient(${c.DARKBLUE}, ${c.LIGHTBLUE});
     background-attachment: fixed;
     font-size: 20px;
-    font-family: Helvetica, Arial, sans-serif;
     margin-left: calc(100vw - 100%);
     background-color: ${c.COOLGRAY};
     height: 100%;
@@ -20,14 +19,20 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
   }
 
-  body {
-    height: 100%;
-  }
-
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
     padding: 0;
-    font-weight: normal;
+  }
+
+  body {
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    height: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: montserrat, sans-serif
+    font-weight: 700;
   }
 
   ol, ul {
@@ -47,4 +52,6 @@ export const GlobalStyle = createGlobalStyle`
   a:hover {
     text-decoration: underline;
   }
+
+  
 `

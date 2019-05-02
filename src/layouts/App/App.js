@@ -78,7 +78,7 @@ class App extends React.Component {
                 updateSearchValue={this.updateSearchValue} 
                 callback={this.getSearchCallback}
               />
-              <ResetSearchButton onClick={() => this.resetSearch()}>Reset</ResetSearchButton>
+              <ResetSearchButton onClick={() => this.resetSearch()}>RESET</ResetSearchButton>
             </SearchContainer>
             <PolicyResults
               searchValue={this.state.searchValue}
