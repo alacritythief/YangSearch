@@ -25,8 +25,9 @@ export const ContentContainer = styled.div`
 
 export const PolicyResultsContainer = styled.div`
   background-color: ${c.COOLGRAY};
-  border: 1px solid ${c.COOLGRAY};
-  border-radius: 3px;  
+  border: 1px solid ${c.DARKGRAY};
+  border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -52,6 +53,7 @@ export const WhiteText = styled.p`
 
 export const Logo = styled.div`
   display: inline-block;
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
   max-width: 300px;
   max-height: 61px;
 

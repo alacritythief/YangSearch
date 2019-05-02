@@ -5,6 +5,7 @@ import * as c from '../constants/colors';
 export const ResetSearchButton = styled.button`
   border: 1px solid ${c.BLACK};
   border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: ${c.WHITE};
   background-color: ${c.RED};
   font-size: 18px;

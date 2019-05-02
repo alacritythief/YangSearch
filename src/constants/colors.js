@@ -12,3 +12,4 @@ export const LIGHTRED = '#E56F7E';
 export const RED = '#DA3248';
 export const DARKRED = '#982332'
 export const COOLGRAY = '#EAEAEA';
+export const DARKGRAY = '#A3A3A3';

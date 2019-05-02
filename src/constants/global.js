@@ -41,9 +41,10 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     color: ${c.MEDBLUE};
+    text-decoration: none;
   }
 
   a:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 `
