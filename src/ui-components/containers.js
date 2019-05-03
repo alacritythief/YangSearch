@@ -38,9 +38,29 @@ export const PolicyResultsContainer = styled.div`
     margin-top: 1rem;
   }
 `
+export const MenuWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+`
 
-export const WhiteText = styled.p`
+export const MenuText = styled.ul`
   color: ${c.WHITE};
+  display: flex;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+
+  @media only screen and (max-width: ${d.TABLET}){
+    flex-direction: column;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 0.4rem;
+    text-align: center;
+  }
 
   a {
     color: ${c.WHITE};
@@ -48,7 +68,12 @@ export const WhiteText = styled.p`
 
   a:hover {
     color: ${c.RED};
+    text-decoration: none;
   }
+`
+
+export const LogoWrapper = styled.div`
+  flex-direction: row;
 `
 
 export const Logo = styled.div`

@@ -4,7 +4,9 @@ import {
   AppContainer,
   ContentContainer,
   SearchContainer,
-  WhiteText,
+  MenuWrapper,
+  LogoWrapper,
+  MenuText,
   Logo,
   MathHatContainer
 } from '../../ui-components/containers';
@@ -65,13 +67,15 @@ class App extends React.Component {
         <GlobalStyle />
         <AppContainer>
           <ContentContainer>
-            <Logo><YangSearchLogo /></Logo><MathHatContainer src={MathHat}/>
-            <WhiteText>
-              <a href="https://www.yang2020.com/" rel="noopener noreferrer" target="_blank">
-                Yang2020.com</a> | <a href="https://www.yang2020.com/policies/" rel="noopener noreferrer" target="_blank">
-                Full Policy List ({ policyCounter()})</a> | <a href="https://secure.actblue.com/donate/friends-of-andrew-yang" rel="noopener noreferrer" target="_blank">
-                Donate $20 Today!</a> | <a href="https://twitter.com/alacritythief" rel="noopener noreferrer" target="_blank">Who created this?</a>
-            </WhiteText>
+            <MenuWrapper>
+              <LogoWrapper><Logo><YangSearchLogo /></Logo><MathHatContainer src={MathHat}/></LogoWrapper>
+              <MenuText>
+                <li><a href="https://www.yang2020.com/" rel="noopener noreferrer" target="_blank">YANG2020.COM</a></li>
+                <li><a href="https://www.yang2020.com/policies/" rel="noopener noreferrer" target="_blank">POLICY LIST ({ policyCounter()})</a></li>
+                <li><a href="https://secure.actblue.com/donate/friends-of-andrew-yang" rel="noopener noreferrer" target="_blank">DONATE $20!</a></li>
+                <li><a href="https://twitter.com/alacritythief" rel="noopener noreferrer" target="_blank">WHO CREATED THIS?</a></li>
+              </MenuText>
+            </MenuWrapper>
             <SearchContainer>
               <SearchInput
                 ref="searchInput"

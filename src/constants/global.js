@@ -46,6 +46,7 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     color: ${c.MEDBLUE};
+    font-weight: 700;
     text-decoration: none;
   }
 
