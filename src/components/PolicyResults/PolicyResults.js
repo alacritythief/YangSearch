@@ -79,7 +79,7 @@ class PolicyResults extends React.Component {
     } else {
       return (
         <PolicyResultsContainer>
-          <h3><strong>Policies related to "{this.props.searchValue}":</strong></h3>
+          <h3>Policies related to "{this.props.searchValue}":</h3>
           <PolicyList>
             { this.generateResults() }
           </PolicyList>

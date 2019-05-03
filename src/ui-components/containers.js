@@ -3,10 +3,10 @@ import * as c from '../constants/colors';
 import * as d from '../constants/devices';
 
 export const AppContainer = styled.div`
-  display: flex;
   box-sizing: border-box;
-  width: 100%;
+  display: flex;
   height: 100%;
+  width: 100%;
   max-width: ${d.MAX_PAGE_WIDTH};
   margin: 0 auto;
   padding: 0.5rem;
@@ -18,8 +18,8 @@ export const SearchContainer = styled.div`
 `
 
 export const ContentContainer = styled.div`
-  width: 100%;
   height: 100%;
+  width: 100%;
   flex-grow: 1;
 `
 
@@ -55,12 +55,6 @@ export const MenuText = styled.ul`
   @media only screen and (max-width: ${d.TABLET}){
     flex-direction: column;
   }
-  
-  li {
-    display: inline-block;
-    margin: 0 0.4rem;
-    text-align: center;
-  }
 
   a {
     color: ${c.WHITE};
@@ -69,6 +63,12 @@ export const MenuText = styled.ul`
   a:hover {
     color: ${c.RED};
     text-decoration: none;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 0.4rem;
+    text-align: center;
   }
 `
 
@@ -95,9 +95,9 @@ export const Logo = styled.div`
 
 export const MathHatContainer = styled.img`
   display: inline-block;
-  vertical-align: top;
   height: 59px;
   width: 59px;
+  vertical-align: top;
 
   @media only screen and (max-width: ${d.TINY}){
     max-width: 49px;

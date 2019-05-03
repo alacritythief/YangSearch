@@ -30,11 +30,6 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: montserrat, sans-serif
-    font-weight: 700;
-  }
-
   ol, ul {
     list-style: none;
   }
