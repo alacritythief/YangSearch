@@ -442,7 +442,14 @@ export const PolicyData = [
       'veterans',
       'mental health',
       'cyberterrorism',
-      'nuclear material'
+      'nuclear material',
+      'Legion of Builders and Destroyers',
+      'VA',
+      'Veterans Health Administration',
+      'warriors',
+      'army',
+      'navy',
+      'air force'
     ],
   },
   {
