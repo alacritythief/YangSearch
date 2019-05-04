@@ -13,7 +13,10 @@ export const PolicyData = [
       'Thomas Paine',
       'Martin Luther King',
       'Richard Nixon',
-      'Milton Friedman'
+      'Milton Friedman',
+      'african americans',
+      'reparations',
+      'blacks'
     ]
   },
   {
@@ -1141,7 +1144,7 @@ export const PolicyData = [
       'drugs',
       'enforcement',
       'african americans',
-      'black',
+      'blacks',
       'incarceration',
       'forgiveness',
       'pardon',
