@@ -48,6 +48,7 @@ export const MenuWrapper = styled.div`
 export const MenuText = styled.ul`
   color: ${c.WHITE};
   display: flex;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .7));
   font-family: montserrat, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -78,19 +79,9 @@ export const LogoWrapper = styled.div`
 
 export const Logo = styled.div`
   display: inline-block;
-  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
-  max-width: 300px;
-  max-height: 61px;
-
-  @media only screen and (max-width: ${d.MOBILE}){
-    max-width: 290px;
-    max-height: 59px;
-  }
-
-  @media only screen and (max-width: ${d.TINY}){
-    max-width: 250px;
-    max-height: 51px;
-  }
+  max-width: 680px;
+  margin-bottom: 0.5rem;
+  margin-left: 10px;
 `
 
 export const MathHatContainer = styled.img`

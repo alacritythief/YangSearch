@@ -12,8 +12,7 @@ import {
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
-import { ReactComponent as YangSearchLogo } from '../../img/yangsearch_logo.svg';
-import MathHat from '../../img/math_hat.png';
+import YangSearchLogo from '../../img/yangsearch_headshot_logo.png';
 import { policySearch, policyCounter } from '../../lib/policysearch';
 import { ResetSearchButton } from '../../ui-components/ResetSearchButton';
 
@@ -68,7 +67,7 @@ class App extends React.Component {
         <AppContainer>
           <ContentContainer>
             <MenuWrapper>
-              <LogoWrapper><Logo><YangSearchLogo /></Logo><MathHatContainer src={MathHat}/></LogoWrapper>
+              <LogoWrapper><Logo><img src={ YangSearchLogo } /></Logo></LogoWrapper>
               <MenuText>
                 <li><a href="https://www.yang2020.com/" rel="noopener noreferrer" target="_blank">YANG2020.COM</a></li>
                 <li><a href="https://www.yang2020.com/policies/" rel="noopener noreferrer" target="_blank">POLICY LIST ({ policyCounter()})</a></li>
