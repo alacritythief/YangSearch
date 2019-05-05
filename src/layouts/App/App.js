@@ -67,7 +67,11 @@ class App extends React.Component {
         <AppContainer>
           <ContentContainer>
             <MenuWrapper>
-              <LogoWrapper><Logo><img src={ YangSearchLogo } /></Logo></LogoWrapper>
+              <LogoWrapper>
+                <Logo>
+                  <img alt="YangSearch: Humanity First" src={ YangSearchLogo } onClick={() => this.resetSearch()} />
+                </Logo>
+              </LogoWrapper>
               <MenuText>
                 <li><a href="https://www.yang2020.com/" rel="noopener noreferrer" target="_blank">YANG2020.COM</a></li>
                 <li><a href="https://www.yang2020.com/policies/" rel="noopener noreferrer" target="_blank">POLICY LIST ({ policyCounter()})</a></li>

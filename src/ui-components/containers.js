@@ -79,6 +79,7 @@ export const LogoWrapper = styled.div`
 
 export const Logo = styled.div`
   display: inline-block;
+  cursor: pointer;
   max-width: 680px;
   margin-bottom: 0.5rem;
   margin-left: 10px;
