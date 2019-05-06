@@ -7,8 +7,7 @@ import {
   MenuWrapper,
   LogoWrapper,
   MenuText,
-  Logo,
-  MathHatContainer
+  Logo
 } from '../../ui-components/containers';
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
