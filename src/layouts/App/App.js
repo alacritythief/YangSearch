@@ -9,6 +9,7 @@ import {
   MenuText,
   Logo
 } from '../../ui-components/containers';
+import YouTubePlayer from '../../components/YouTubePlayer';
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
 import YangSearchLogo from '../../img/yangsearch_headshot_logo.png';
@@ -86,6 +87,7 @@ class App extends React.Component {
               />
               <ResetSearchButton onClick={() => this.resetSearch()}>RESET</ResetSearchButton>
             </SearchContainer>
+            <YouTubePlayer />
             <PolicyResults
               searchValue={this.state.searchValue}
               policies={this.state.policyResults} 
