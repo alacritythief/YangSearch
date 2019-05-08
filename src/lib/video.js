@@ -22,7 +22,7 @@ export const VideoData = [
       },
       {
         time: '0:01:41',
-        seconds: '84',
+        seconds: '101',
         topic: 'Won\'t new jobs be created from automation that will offset its displacement?',
         policy: null,
         keywords: [
@@ -39,7 +39,7 @@ export const VideoData = [
       },
       {
         time: '0:03:23',
-        seconds: '193',
+        seconds: '203',
         topic: 'What is the solution to automation displacing workers?',
         policy: 'The Freedom Dividend',
         keywords: [
