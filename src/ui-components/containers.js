@@ -96,3 +96,9 @@ export const MathHatContainer = styled.img`
     max-height: 49px;
   }
 `
+
+export const VideoContainer = styled.div`
+`
+
+export const VideoResultsList = styled.ul`
+`

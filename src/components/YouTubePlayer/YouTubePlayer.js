@@ -1,5 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import { VideoContainer } from '../../ui-components/containers';
 
 class YouTubePlayer extends React.Component {
   constructor (props) {
@@ -7,7 +8,7 @@ class YouTubePlayer extends React.Component {
 
     this.state = {
       videoId: '87M2HwkZZcw', // this.props.videoId
-      seconds: '101', // this.props.second
+      start: '101', // this.props.start
       player: null
     }
   }
@@ -17,7 +18,6 @@ class YouTubePlayer extends React.Component {
     this.setState({
       player: event.target
     })
-    event.target.playVideo();
   }
 
   changeTime = (seconds) => {
@@ -31,19 +31,19 @@ class YouTubePlayer extends React.Component {
       width: '560',
       height: '315',
       playerVars: { // https://developers.google.com/youtube/player_parameters
-        start: this.state.seconds
+        start: this.state.start
       }
     };
 
     return (
-      <div>
-      <YouTube
-        videoId={this.state.videoId}
-        opts={opts}
-        onReady={this.onReady}
-      />
-      <button onClick={ () => this.changeTime(203) }>Change Time</button>
-      </div>
+      <VideoContainer>
+        <YouTube
+          videoId={this.state.videoId}
+          opts={opts}
+          onReady={this.onReady}
+        />
+        <button onClick={ () => this.changeTime(203) }>Change Time</button>
+      </VieoContainer>
     );
   }
 }
