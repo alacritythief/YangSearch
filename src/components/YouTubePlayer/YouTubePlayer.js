@@ -43,7 +43,7 @@ class YouTubePlayer extends React.Component {
           onReady={this.onReady}
         />
         <button onClick={ () => this.changeTime(203) }>Change Time</button>
-      </VieoContainer>
+      </VideoContainer>
     );
   }
 }
