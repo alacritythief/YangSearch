@@ -23,6 +23,27 @@ export const ContentContainer = styled.div`
   flex-grow: 1;
 `
 
+export const BlurbContainer = styled.div`
+  color: ${c.WHITE};
+  display: inline-block;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+
+  a {
+    color: ${c.WHITE};
+  }
+
+  a: hover {
+    color: ${c.RED};
+    text-decoration: none;
+  }
+
+  p:nth-child(n+2) {
+    margin-top: 1rem;
+  }
+`
+
 export const PolicyResultsContainer = styled.div`
   background-color: ${c.COOLGRAY};
   border: 1px solid ${c.DARKGRAY};
