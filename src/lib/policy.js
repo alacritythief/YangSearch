@@ -2,7 +2,7 @@ export const PolicyData = [
   {
     name: 'The Freedom Dividend',
     url: 'https://www.yang2020.com/policies/the-freedom-dividend/',
-    category: 'Universal Basic Income',
+    category: 'Economy',
     keywords: [
       'ubi',
       'freedom dividend',
@@ -39,7 +39,7 @@ export const PolicyData = [
   {
     name: 'Human-Centered Capitalism',
     url: 'https://www.yang2020.com/policies/human-capitalism/',
-    'category': 'Capitalism',
+    'category': 'Economy',
     keywords: [
       'capitalism',
       'human capitalism',
@@ -1361,7 +1361,7 @@ export const PolicyData = [
   {
     name: 'Support for the Arts',
     url: 'https://www.yang2020.com/policies/support-for-the-arts/',
-    category: 'Arts',
+    category: 'Culture',
     keywords: [
       'creativity',
       'arts',

@@ -12,7 +12,7 @@ import {
 import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
 import YangSearchLogo from '../../img/yangsearch_headshot_logo.png';
-import { policySearch, policyCounter } from '../../lib/policysearch';
+import { policySearch } from '../../lib/policysearch';
 import { ResetSearchButton } from '../../ui-components/ResetSearchButton';
 
 class App extends React.Component {
@@ -73,7 +73,7 @@ class App extends React.Component {
               </LogoWrapper>
               <MenuText>
                 <li><a href="https://www.yang2020.com/" rel="noopener noreferrer" target="_blank">YANG2020.COM</a></li>
-                <li><a href="https://www.yang2020.com/policies/" rel="noopener noreferrer" target="_blank">POLICY LIST ({ policyCounter()})</a></li>
+                <li><a href="https://www.yang2020.com/policies/" rel="noopener noreferrer" target="_blank">POLICY LIST (100+)</a></li>
                 <li><a href="https://secure.actblue.com/donate/friends-of-andrew-yang" rel="noopener noreferrer" target="_blank">DONATE $20!</a></li>
                 <li><a href="https://twitter.com/alacritythief" rel="noopener noreferrer" target="_blank">WHO CREATED THIS?</a></li>
               </MenuText>

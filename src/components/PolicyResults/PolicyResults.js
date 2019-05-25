@@ -41,10 +41,10 @@ class PolicyResults extends React.Component {
             Policy links will open in a new tab.</strong>
           </p>
           <p>
-            <strong>You can search categories too:</strong> Arts, Capitalism, Culture, Economy, 
+            <strong>You can search categories too:</strong> Culture, Economy, 
             Education, Environment, Foreign Policy, Government, Health, Immigration, 
             Legal, Media, Military, Society, Sports, States Rights, Technology, 
-            Univeral Basic Income, Voting, and Workers' Rights.
+            Voting, and Workers' Rights.
           </p>
           <p>
             <strong>Who is Andrew Yang?</strong><br/>
