@@ -28,6 +28,7 @@ export const BlurbContainer = styled.div`
   display: inline-block;
   filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .7));
   margin-top: 1rem;
+  padding: 0 0.5rem;
   width: 100%;
   text-align: center;
 
