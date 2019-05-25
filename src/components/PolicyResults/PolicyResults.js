@@ -50,7 +50,7 @@ class PolicyResults extends React.Component {
               , bringing
               21st century solutions to 21st century problems.<br/>
               His priority is to build a "trickle up" economy that serves "Humanity First", 
-              that empowers local communities and everyday people.
+              empowering every citizen and their local communities.
             </p>
           </BlurbContainer>
           <PolicyResultsContainer>
@@ -75,7 +75,7 @@ class PolicyResults extends React.Component {
             </p>
             <p>
               This website is not affiliated with the official Yang2020 campaign, however it is supported 
-              with the help of Yang Gang volunteers across the USA.
+              with the help and hard work of Yang Gang volunteers across the USA.
             </p>
             <p>
               <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers, and volunteer resources.

@@ -26,6 +26,7 @@ export const ContentContainer = styled.div`
 export const BlurbContainer = styled.div`
   color: ${c.WHITE};
   display: inline-block;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .7));
   margin-top: 1rem;
   width: 100%;
   text-align: center;
