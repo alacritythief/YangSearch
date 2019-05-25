@@ -1024,20 +1024,6 @@ export const PolicyData = [
     ],
   },
   {
-    name: 'News and Information Ombudsman',
-    url: 'https://www.yang2020.com/policies/news-information-ombudsman/',
-    category: 'Media',
-    keywords: [
-      'news',
-      'newspapers',
-      'ombudsman',
-      'libel',
-      'media',
-      'journalism',
-      'journalists'
-    ],
-  },
-  {
     name: 'American Journalism Fellows',
     url: 'https://www.yang2020.com/policies/american-journalism-fellows/',
     category: 'Media',
