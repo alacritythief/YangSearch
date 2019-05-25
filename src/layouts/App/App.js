@@ -62,13 +62,13 @@ class App extends React.Component {
   render () {
     return (
       <React.Fragment>
-        <GlobalStyle />
+        <GlobalStyle/>
         <AppContainer>
           <ContentContainer>
             <MenuWrapper>
               <LogoWrapper>
                 <Logo>
-                  <img alt="YangSearch: Humanity First" src={ YangSearchLogo } onClick={() => this.resetSearch()} />
+                  <img alt="YangSearch: Humanity First" src={ YangSearchLogo } onClick={() => this.resetSearch()}/>
                 </Logo>
               </LogoWrapper>
               <MenuText>
