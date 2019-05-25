@@ -28,7 +28,7 @@ class SearchInput extends React.Component {
       <React.Fragment>
         <InputBox 
           type="text"
-          placeholder="ex. UBI, Medicare for All, Human-Centered Capitalism"
+          placeholder="ex. UBI, Medicare for All, Economy, Jobs, Education"
           value={this.state.value}
           onChange={this.handleChange}
           onKeyUp={this.handleSubmit}

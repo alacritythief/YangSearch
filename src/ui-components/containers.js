@@ -23,6 +23,58 @@ export const ContentContainer = styled.div`
   flex-grow: 1;
 `
 
+export const BlurbContainer = styled.div`
+  color: ${c.WHITE};
+  display: inline-block;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .7));
+  margin-top: 1rem;
+  padding: 0 0.2rem;
+  width: 100%;
+  text-align: center;
+
+  a {
+    color: ${c.WHITE};
+  }
+
+  a:hover {
+    color: ${c.RED};
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: ${d.MAX_PAGE_WIDTH}){
+    br {
+      display: none;
+    }
+  }
+`
+
+export const FollowContainer = styled.div`
+  color: ${c.WHITE};
+  display: inline-block;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .7));
+  font-family: montserrat, sans-serif;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+
+  p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  ul li {
+    border: 1px solid ${c.WHITE};
+    border-radius: 5rem;
+    padding: 6px 9px 5px 7px;
+    display: inline-block;
+    margin: 0.2rem 0.5rem;
+
+    &:hover {
+      background-color: ${c.LIGHTBLUE};
+    }
+  }
+`
+
 export const PolicyResultsContainer = styled.div`
   background-color: ${c.COOLGRAY};
   border: 1px solid ${c.DARKGRAY};
