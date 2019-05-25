@@ -48,16 +48,20 @@ class PolicyResults extends React.Component {
                 campaign of ideas
               </a>
               , bringing
-              21st century solutions to 21st century problems.<br/>
-              His priority is to build a "trickle up" economy that serves "Humanity First", 
-              empowering every citizen and their local communities.
+              21st century solutions to 21st century problems. <br/>
+              His priority is to build a "trickle up" economy that serves <a 
+                href="https://www.yang2020.com/policies/human-capitalism/"
+                rel="noopener noreferrer" 
+                target="_blank">
+                "Humanity First"
+              </a>, empowering every citizen and their local communities.
             </p>
           </BlurbContainer>
           <PolicyResultsContainer>
             <p>
               <strong>
-                Learn more about Andrew Yang by typing keywords 
-                and topics in the search bar above. Policy links 
+                Learn how Andrew Yang is working to improve the lives of every American 
+                by typing keywords and topics in the search bar above. Policy links 
                 will open in a new tab.
               </strong>
             </p>
@@ -69,16 +73,17 @@ class PolicyResults extends React.Component {
             </p>
             <p>
               <strong>What is the purpose of this site?</strong><br/>
-              To be a quick portal to find everything related to Andrew Yang's 2020 campaign: 
-              his policies, interviews, rallies, media appearances, and content from his supporters 
-              nicknamed the "Yang Gang". For this first version we have searchable policies. 
+              To be a quick portal to find everything related to Andrew Yang's 2020 campaign. 
+              For this first version we have searchable policies. Soon we'll be adding searchable video interviews, 
+              rallies, media appearances, and content from his supporters 
+              nicknamed the "Yang Gang". 
             </p>
             <p>
               This website is not affiliated with the official Yang2020 campaign, however it is supported 
               with the help and hard work of Yang Gang volunteers across the USA.
             </p>
             <p>
-              <strong>New features coming very soon:</strong><br/> Video search with topic timestamps, User submissions, FAQ with Questions &amp; Answers, and volunteer resources.
+              <strong>Next Upcoming Feature:</strong><br/> Video search with topic timestamps.
             </p>
             <p>
               <strong>How can I contribute?</strong><br/>
