@@ -1,5 +1,13 @@
 import React from 'react';
-import { PolicyResultsContainer, BlurbContainer } from '../../ui-components/containers';
+import { 
+  PolicyResultsContainer,
+  BlurbContainer,
+  FollowContainer
+} from '../../ui-components/containers';
+import { ReactComponent as FacebookIcon } from '../../img/facebook.svg';
+import { ReactComponent as InstagramIcon } from '../../img/instagram.svg';
+import { ReactComponent as TwitterIcon } from '../../img/twitter.svg';
+import { ReactComponent as YouTubeIcon } from '../../img/youtube.svg';
 import { PolicyList, PolicyListItem } from './styles';
 
 class PolicyResults extends React.Component {
@@ -57,6 +65,39 @@ class PolicyResults extends React.Component {
               </a>, empowering every citizen and their local communities.
             </p>
           </BlurbContainer>
+          <FollowContainer>
+            <p>FOLLOW ANDREW YANG ON SOCIAL MEDIA</p>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/andrewyang2020/" 
+                rel="noopener noreferrer" 
+                target="_blank">
+                  <FacebookIcon/>
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/andrewyang2020" 
+                rel="noopener noreferrer" 
+                target="_blank">
+                  <InstagramIcon/>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/andrewyang" 
+                rel="noopener noreferrer" 
+                target="_blank">
+                  <TwitterIcon/>
+                </a>
+                </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCriIuQZpMi6gEt_2P7xKCww" 
+                rel="noopener noreferrer" 
+                target="_blank">
+                  <YouTubeIcon/>
+                </a>
+              </li>
+            </ul>
+          </FollowContainer>
           <PolicyResultsContainer>
             <p>
               <strong>

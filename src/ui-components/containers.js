@@ -36,18 +36,41 @@ export const BlurbContainer = styled.div`
     color: ${c.WHITE};
   }
 
-  a: hover {
+  a:hover {
     color: ${c.RED};
     text-decoration: none;
-  }
-
-  p:nth-child(n+2) {
-    margin-top: 1rem;
   }
 
   @media only screen and (max-width: ${d.MAX_PAGE_WIDTH}){
     br {
       display: none;
+    }
+  }
+`
+
+export const FollowContainer = styled.div`
+  color: ${c.WHITE};
+  display: inline-block;
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .7));
+  font-family: montserrat, sans-serif;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+
+  p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  ul li {
+    border: 1px solid ${c.WHITE};
+    border-radius: 5rem;
+    padding: 6px 9px 5px 7px;
+    display: inline-block;
+    margin: 0.2rem 0.5rem;
+
+    &:hover {
+      background-color: ${c.LIGHTBLUE};
     }
   }
 `
