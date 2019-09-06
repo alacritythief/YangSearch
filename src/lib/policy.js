@@ -460,6 +460,131 @@ export const PolicyData = [
     ],
   },
   {
+    name: 'Veteran Employment and Businesses',
+    url: 'https://www.yang2020.com/policies/veteran-employment-and-businesses/',
+    category: 'Military',
+    keywords: [
+      'veterans',
+      'soldiers',
+      'employment',
+      'business',
+      'businesses',
+      'military'
+    ]
+  },
+  {
+    name: 'Ending Veteran Suicide',
+    url: 'https://www.yang2020.com/policies/ending-veteran-suicide/',
+    category: 'Military',
+    keywords: [
+      'suicide',
+      'veterans',
+      'soldiers',
+      'PTSD',
+      'mental health',
+      'crisis lines',
+      'suicide hotlines',
+      'gun suicide',
+      'gun storage',
+      'gun lockers'
+    ]
+  },
+  {
+    name: 'Every Vet Under a Roof Initiative',
+    url: 'https://www.yang2020.com/policies/every-vet-under-a-roof-initiative/',
+    category: 'Military',
+    keywords: [
+      'veterans',
+      'soldiers',
+      'housing',
+      'roof',
+      'homeless',
+      'homelessness',
+      'civilian',
+      'transition',
+      'mortgage'
+    ]
+  },
+  {
+    name: 'Controlled Substance Waivers for Veterans',
+    url: 'https://www.yang2020.com/policies/controlled-substance-waivers-for-veterans/',
+    category: 'Military',
+    keywords: [
+      'veterans',
+      'soldiers',
+      'PTSD',
+      'substances',
+      'marijuana',
+      'controlled substances'
+    ]
+  },
+  {
+    name: 'Improving Veteran Health',
+    url: 'https://www.yang2020.com/policies/improving-veteran-health/',
+    category: 'Military',
+    keywords: [
+      'veterans',
+      'soldiers',
+      'health',
+      'mental health',
+      'choice act',
+      'TBI',
+      'PTSD',
+      'VA',
+      'VHA',
+      'Veterans Health Administration',
+      'rural areas'
+    ]
+  },
+  {
+    name: 'Military Training: The Gold Standard',
+    url: 'https://www.yang2020.com/policies/military-training-the-gold-standard/',
+    category: 'Military',
+    keywords: [
+      'veterans',
+      'soldiers',
+      'jobs',
+      'CDL',
+      'EMT',
+      'medics',
+      'job transition',
+      'civilian transition',
+      'training',
+      'certification',
+      'licensing'
+    ]
+  },
+  {
+    name: 'GI Bill Improvements',
+    url: 'https://www.yang2020.com/policies/gi-bill-improvements/',
+    category: 'Military',
+    keywords: [
+      'veterans',
+      'soldiers',
+      'schools',
+      'higher education',
+      'education',
+      'course credit',
+      'college',
+      'university'
+    ]
+  },
+  {
+    name: 'Reverse Boot Camp',
+    url: 'https://www.yang2020.com/policies/reverse-boot-camp/',
+    category: 'Military',
+    keywords: [
+      'veterans',
+      'soldiers',
+      'civilian life',
+      'grocery shopping',
+      'financial literacy',
+      'finance',
+      'jobs',
+      'civilian transition'
+    ]
+  },
+  {
     name: 'Life-Skills Education in All High Schools',
     url: 'https://www.yang2020.com/policies/life-skills-education/',
     category: 'Education',
@@ -998,7 +1123,6 @@ export const PolicyData = [
       'legal',
       'non-lethal',
       'weapons',
-      'demilitarize',
       'handprint guns'
     ],
   },
@@ -1093,6 +1217,24 @@ export const PolicyData = [
       'healthcare',
       'health care'
     ],
+  },
+  {
+    name: 'Fighting the Rise of White Nationalism and Extremism',
+    url: 'https://www.yang2020.com/policies/fight-white-nationalism-extremism/',
+    category: 'Legal',
+    keywords: [
+      'white nationalism',
+      'extremism',
+      'domestic terrorism',
+      'kkk',
+      'nazi',
+      'terrorism',
+      'DOJ',
+      'Department of Justice',
+      'FBI',
+      'Federal Bureau of Investigation',
+      'criminal justice'
+    ]
   },
   {
     name: 'Value-Added Tax',
@@ -1411,11 +1553,13 @@ export const PolicyData = [
     url: 'https://www.yang2020.com/policies/gun-safety/',
     category: 'Society',
     keywords: [
+      'gun violence',
       'society',
       'guns',
       '2nd amendment',
       'second amendment',
       '2A',
+      'NRA',
       'handguns',
       'rifles',
       'shotguns',
@@ -1424,6 +1568,27 @@ export const PolicyData = [
       'safety',
       'buyback'
     ],
+  },
+  {
+    name: 'Combating Gun Violence and Hate in America',
+    url: 'https://www.yang2020.com/blog/combating-violence-hate/',
+    category: 'Society',
+    keywords: [
+      'gun violence',
+      'society',
+      'guns',
+      '2nd amendment',
+      'second amendment',
+      '2A',
+      'NRA',
+      'handguns',
+      'rifles',
+      'shotguns',
+      'licensing',
+      'license',
+      'safety',
+      'buyback'
+    ]
   },
   {
     name: 'Foreign Policy First Principles',
@@ -1524,6 +1689,30 @@ export const PolicyData = [
     ],
   },
   {
+    name: 'Full Climate Change Plan: It’s Worse Than You Think – Lower Emissions, Higher Ground',
+    url: 'https://www.yang2020.com/blog/climate-change/',
+    category: 'Environment',
+    keywords: [
+      'climate',
+      'climate change',
+      'green new deal',
+      'alternative energy',
+      'clean',
+      'environment',
+      'fossil fuels',
+      'solar',
+      'wind',
+      'nuclear',
+      'energy',
+      'power plants',
+      'greenhouse gasses',
+      'global warming',
+      'electric bills',
+      'EPA',
+      'environmental protection agency'
+    ]
+  },
+  {
     name: 'Combat Climate Change',
     url: 'https://www.yang2020.com/policies/climate-change/',
     category: 'Environment',
@@ -1537,6 +1726,7 @@ export const PolicyData = [
       'fossil fuels',
       'solar',
       'wind',
+      'nuclear',
       'energy',
       'power plants',
       'greenhouse gasses',
@@ -1686,6 +1876,21 @@ export const PolicyData = [
       '18',
       'government'
     ],
+  },
+  {
+    name: '12-Year Congressional Term Limits',
+    url: 'https://www.yang2020.com/policies/12-year-congressional-term-limits/',
+    category: 'Government',
+    keywords: [
+      'congress',
+      '12',
+      'term limits',
+      'twelve years',
+      'government',
+      'lawmakers',
+      'legislators',
+      'laws'
+    ]
   },
   {
     name: 'Empowering MMA Fighters',

@@ -122,7 +122,8 @@ class PolicyResults extends React.Component {
             </p>
             <p>
               <strong>Latest Update (9/6/19):</strong><br/> Multiple keyword search. You can now enter multiple 
-              keywords (ex. "medicare, ubi, democracy dollars") and get relevant results for all of those keywords!
+              keywords separated by commas (ex. "medicare, ubi, democracy dollars") and get relevant results for 
+              all of those keywords! Also added new policies to the search and updated the logo.
             </p>
             <p>
               <strong>How can I contribute?</strong><br/>
