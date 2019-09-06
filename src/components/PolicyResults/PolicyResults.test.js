@@ -1,14 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
 import PolicyResults from './PolicyResults';
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(
+  shallow(
     <PolicyResults 
       searchValue={''}
       policies={[]} 
-    />, div
+    />
   );
-  ReactDOM.unmountComponentAtNode(div);
 });
