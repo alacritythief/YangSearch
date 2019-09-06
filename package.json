@@ -4,21 +4,37 @@
   "homepage": "https://yangsearch.com",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "fuse.js": "^3.4.4",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0",
+    "react-test-renderer": "^16.9.0",
     "styled-components": "^4.2.0",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
     "lodash.template": ">=4.5.0"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!src/**/styles.js",
+      "!src/ui-components/*",
+      "!src/constants/*",
+      "!src/index.js",
+      "!src/serviceWorker.js",
+      "!src/setupTests.js"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "react-scripts test --coverage --watchAll=false",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
