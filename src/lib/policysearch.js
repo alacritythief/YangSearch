@@ -16,8 +16,8 @@ export const policySearch = (keyword) => {
       'category'
     ]
   };
+  
   let fuse = new Fuse(PolicyData, options);
-
   let finalResults = []
   let searchInputList = keyword.split(',').map(item => item.trim());
 
