@@ -1,7 +1,7 @@
 # YangSearch
 ### https://yangsearch.com/
 
-A policy and media search portal for [Andrew Yang](https://www.yang2020.com/), 2020 Democratic presidential candidate.
+A policy search portal for [Andrew Yang](https://www.yang2020.com/), 2020 Democratic presidential candidate.
 
 Created by [Andy Wong](https://github.com/alacritythief) with the support of Yang Gang volunteers across the USA.
 
@@ -14,7 +14,6 @@ This app requires NodeJS v10.15.3 or higher to run.
 ## Contributing
 * Keywords: [Post an issue](https://github.com/alacritythief/YangSearch/issues) with the `Keywords` label or submit your own PR fix and ask for review.
 * Policies: [Post an issue](https://github.com/alacritythief/YangSearch/issues) with the `Policies` label or submit your own PR fix and ask for review.
-* Videos: Video feature is being added soon.
 
 ## Installing/Running this app locally
 
