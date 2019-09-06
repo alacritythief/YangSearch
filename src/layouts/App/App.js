@@ -13,7 +13,7 @@ import SearchInput from '../../components/SearchInput';
 import PolicyResults from '../../components/PolicyResults';
 import YangSearchLogo from '../../img/yangsearch_headshot_logo.png';
 import { policySearch } from '../../lib/policysearch';
-import { ResetSearchButton } from '../../ui-components/ResetSearchButton';
+import { ResetSearchButton } from '../../ui-components/buttons';
 
 class App extends React.Component {
   constructor (props) {

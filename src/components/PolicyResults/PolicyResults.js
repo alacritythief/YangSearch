@@ -114,17 +114,16 @@ class PolicyResults extends React.Component {
             </p>
             <p>
               <strong>What is the purpose of this site?</strong><br/>
-              To be a quick portal to find everything related to Andrew Yang's 2020 campaign. 
-              For this first version we have searchable policies. Soon we'll be adding searchable video interviews, 
-              rallies, media appearances, and content from his supporters 
-              nicknamed the "Yang Gang". 
+              To be a quick way to find an Andrew Yang policy relevant to you.
             </p>
             <p>
               This website is not affiliated with the official Yang2020 campaign, however it is supported 
               with the help and hard work of Yang Gang volunteers across the USA.
             </p>
             <p>
-              <strong>Next Upcoming Feature:</strong><br/> Video search with topic timestamps.
+              <strong>Latest Update (9/6/19):</strong><br/> Multiple keyword search. You can now enter multiple 
+              keywords separated by commas (ex. "medicare, ubi, democracy dollars") and get relevant results for 
+              all of those keywords! Also added new policies to the search and updated the logo.
             </p>
             <p>
               <strong>How can I contribute?</strong><br/>
