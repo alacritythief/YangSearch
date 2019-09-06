@@ -1566,7 +1566,9 @@ export const PolicyData = [
       'licensing',
       'license',
       'safety',
-      'buyback'
+      'buyback',
+      'gun control',
+      'gun safety'
     ],
   },
   {
@@ -1587,7 +1589,9 @@ export const PolicyData = [
       'licensing',
       'license',
       'safety',
-      'buyback'
+      'buyback',
+      'gun control',
+      'gun safety'
     ]
   },
   {
