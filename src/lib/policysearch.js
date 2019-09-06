@@ -5,20 +5,28 @@ export const policySearch = (keyword) => {
   const options = {
     shouldSort: true,
     findAllMatches: true,
-    threshold: 0.1,
+    threshold: 0.2,
     location: 0,
-    distance: 64,
+    distance: 100,
     maxPatternLength: 32,
-    minMatchCharLength: 5,
+    minMatchCharLength: 3,
     keys: [
-      "name",
-      "category",
-      "keywords"
+      'keywords',
+      'name',
+      'category'
     ]
   };
   let fuse = new Fuse(PolicyData, options);
-  const results = fuse.search(keyword);
-  return results;
+
+  let finalResults = []
+  let searchInputList = keyword.split(',').map(item => item.trim());
+
+  searchInputList.forEach((keyword) => {
+    const results = fuse.search(keyword);
+    finalResults = finalResults.concat(results);
+  })
+
+  return finalResults;
 }
 
 export const policyCounter = () => {
