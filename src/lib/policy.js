@@ -1224,6 +1224,8 @@ export const PolicyData = [
     category: 'Legal',
     keywords: [
       'white nationalism',
+      'white supremacy',
+      'racism',
       'extremism',
       'domestic terrorism',
       'kkk',
