@@ -1,4 +1,4 @@
-import { policySearch } from './policysearch';
+import { policySearch, policyCounter } from './policysearch';
 
 // Testing for policy search
 
@@ -57,3 +57,9 @@ it('Expects related policies under the education category', () => {
     )
   )
 });
+
+// Policy counter
+
+it('Expects over 100 polices', () => {
+  expect(policyCounter()).toBeGreaterThanOrEqual(100)
+})
