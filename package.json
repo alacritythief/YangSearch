@@ -15,10 +15,22 @@
   "devDependencies": {
     "lodash.template": ">=4.5.0"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!src/**/styles.js",
+      "!src/ui-components/*",
+      "!src/constants/*",
+      "!src/index.js",
+      "!src/serviceWorker.js"
+    ]
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "coverage": "react-scripts test --coverage --watchAll=false",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
