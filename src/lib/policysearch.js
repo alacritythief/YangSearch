@@ -16,14 +16,14 @@ export const policySearch = (keyword) => {
       'category'
     ]
   };
-  
-  let fuse = new Fuse(PolicyData, options);
+
+  const fuse = new Fuse(PolicyData, options);
   let finalResults = []
   let searchInputList = keyword.split(',').map(item => item.trim());
 
   searchInputList.forEach((keyword) => {
     const results = fuse.search(keyword);
-    finalResults = finalResults.concat(results);
+    finalResults = [...new Set(finalResults.concat(results))]; 
   })
 
   return finalResults;
